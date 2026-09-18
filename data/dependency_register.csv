@@ -1,0 +1,7 @@
+Family,RepresentativeStudies,SharedDependence,Interpretation
+Design2Code visual lineage,P01; P05; P06; P24; P67,Benchmark and/or fine-grained visual metric reuse,Adoption/reuse; independent evidence only where new criterion/construct is introduced.
+Design2Code-derived sketch lineage,P07 linked to P01,Source webpage ancestry,Sketch/refinement and human outcomes remain distinct evidence.
+WebCode2M lineage,P03; P09,Dataset/reference family,Inherited benchmark validity is not multiplied by reuse.
+Multi-benchmark optimization/reward,P19; P69,Reuse of Design2Code/Web2Code/ScreenBench-style resources,Primarily role/optimization evidence.
+Critic/checklist role family,P20; P21,Related evaluator/reward paradigm,Supports analysis of evaluator role and optimization.
+Cross-environment extension,P23,Related Design2Code/DCGen source-design ancestry,Adds orthogonal compatibility construct and detector validation.

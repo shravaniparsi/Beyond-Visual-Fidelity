@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these review artifacts, please cite the associated manuscript and this repository release."
+title: "Beyond Visual Fidelity: Review Artifacts for a Systematic Evidence Synthesis of Construct Validity in AI UI-to-Code Evaluation"
+type: dataset
+authors:
+  - family-names: "Thatikonda"
+    given-names: "Vishwak"
+    orcid: "https://orcid.org/0009-0009-5828-5903"
+  - family-names: "Parsi"
+    given-names: "Shravani"
+    orcid: "https://orcid.org/0009-0004-0084-4657"
+repository-code: "https://github.com/shravaniparsi/Beyond-Visual-Fidelity"
+license: "CC-BY-4.0"
+keywords:
+  - UI-to-code
+  - screenshot-to-code
+  - construct validity
+  - benchmark evaluation
+  - multimodal code generation
+  - reproducibility
