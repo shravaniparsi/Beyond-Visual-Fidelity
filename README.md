@@ -13,7 +13,7 @@ This repository contains the shareable research artifacts supporting a systemati
 
 The review focuses on what evaluation instruments directly measure, how they are operationalized, what validity and reliability evidence supports them, how denominator and failure policies affect reported results, how benchmark/evaluator reuse creates empirical dependencies, and which inferences are justified from reported scores.
 
-## Recommended repository structure
+## Repository contents
 
 ```text
 .
@@ -21,13 +21,13 @@ The review focuses on what evaluation instruments directly measure, how they are
 ├── LICENSE
 ├── CITATION.cff
 ├── protocol/
-│   ├── review_protocol.docx
+│   ├── ui_to_code_review_protocol_v0_1.docx
 │   └── protocol_amendment.md
 ├── data/
-│   ├── study_register.xlsx
-│   ├── instrument_register.xlsx
-│   ├── validation_evidence.xlsx
-│   ├── dependency_register.xlsx
+│   ├── study_register.csv
+│   ├── instrument_register.csv
+│   ├── validation_evidence.csv
+│   ├── dependency_register.csv
 │   └── human_verification_register.md
 ├── search/
 │   ├── search_strategy.md
