@@ -1,9 +1,14 @@
-StudyID,EvidenceType,ReportedEvidence,InferenceBoundary
-P01,Held-out human-preference prediction,79.9% test accuracy,Combined predictor of tested visual preference; not functional correctness.
-P12,Human–metric association,600 pairs; 14 raters; MAE 0.542; NEMD 0.508; CLIP 0.340,Condition-specific visual criterion association; 0.640 human entry is rater consistency.
-P08,Expert-ranking alignment,0.83 reported mean correlation on 100 sampled cases,Estimator/aggregation unresolved; preserve author-reported correlation.
-P15,Learned-judge agreement + human reliability,95.54% / 91.89% judge accuracy; kappa 0.8648 / 0.8428,Tested edit/repair judge agreement and label reliability only.
-P18,Controlled perturbation + human preference,50 instances; 20 annotators,Visual-closeness criterion; transfer to ordinary outputs not established.
-P23,Annotation reliability + held-out detector,139/203 empirical prevalence; held-out F1 0.903,Prevalence conditional on retained pages; detector F1 is not generation success.
-P70,Human criterion for appearance/temporal measures,"1,069 pairs; 600 comparisons; 65 annotators","Temporal similarity is motion fidelity, not generic functionality."
-P71,Expert-aligned learned judge + repeat stability,86.7% mean agreement; one condition 96.0%,Specific rubric/model/evidence configuration; not field-wide judge validity.
+"StudyID","EvidenceType","ReportedEvidence","InferenceBoundary"
+"P01","Held-out human-preference prediction","79.9% test accuracy","Combined predictor of tested visual preference; not functional correctness."
+"P12","Human–metric association","600 pairs; 14 raters; MAE 0.542; NEMD 0.508; CLIP 0.340","Condition-specific visual criterion association; 0.640 human entry is rater consistency."
+"P08","Expert-ranking alignment","0.83 reported mean correlation on 100 sampled cases","Estimator/aggregation unresolved; preserve author-reported correlation."
+"P15","Learned-judge agreement + human reliability","95.54% / 91.89% judge accuracy; kappa 0.8648 / 0.8428","Tested edit/repair judge agreement and label reliability only."
+"P18","Controlled perturbation + human preference","50 instances; 20 annotators","Visual-closeness criterion; transfer to ordinary outputs not established."
+"P23","Annotation reliability + held-out detector","139/203 empirical prevalence; held-out F1 0.903","Prevalence conditional on retained pages; detector F1 is not generation success."
+"P70","Human criterion for appearance/temporal measures","1,069 pairs; 600 comparisons; 65 annotators","Temporal similarity is motion fidelity, not generic functionality."
+"P71","Expert-aligned learned judge + repeat stability","86.7% mean agreement; one condition 96.0%","Specific rubric/model/evidence configuration; not field-wide judge validity."
+"P07","Expert workflow preference","Published §5 and Appendix D interviews","Preference and expected utility; not observed productivity or metric validation."
+"P17","Human calibration and manual execution inspection","ICLR 2026 Appendix C; see scoped source audit","Weight selection is not held-out confirmation; execution inspection is a distinct check."
+"P32","Functional-node and visual-ranking agreement","arXiv:2603.26648v1 §4.4","Separate criteria; functional nodes are clustered within workflows/tasks."
+"P52","Annotation agreement and cross-judge stability","arXiv:2606.00154v1 Appendix B5–B7","Extraction, matching and stability are distinct; valid-evaluation denominators vary."
+"P22","Human reliability and method preference","arXiv:2602.19276v1 §6.1 and Appendix A6","Conflicting sample descriptions retained; not item-level automatic-metric validation."

@@ -1,10 +1,10 @@
-ConstructFamily,RepresentativeInstrumentFamilies,DirectMeasure,InferenceBoundary
-Visual resemblance,CLIP/embedding similarity; SSIM/pixel/perceptual measures; Block/Text/Position/Color families,Rendered visual resemblance,Does not by itself establish behavior or engineering quality.
-Structural/content,TreeBLEU; DOM/tag/text/code/reference correspondence; element/layout measures,Reference structure/content correspondence,Reference structure may not be uniquely required for correct implementation.
-Executability,Build/compile/render success; invalid-render gates,Ability to execute/render under specified toolchain,Necessary but not sufficient for visual or functional correctness.
-Interaction/functionality,Implement/readiness rates; executed action/state checks; usability/behavior assessment,Specified interaction behavior,"Bounded by tested actions, environment, and oracle."
-Temporal fidelity,Appearance and temporal similarity; video/rubric evaluation,Motion/animation correspondence over time,Not generic backend or navigation correctness.
-Engineering/reuse,Component reuse; repetition; maintainability/readability proxies; semantic/code ratings,Engineering quality or proxy,Often proxy- or rater-dependent.
-Accessibility/usability,Accessibility repair/checks; direct usability assessment,User-facing/accessibility outcome,Task-specific; not uniformly applicable to static reconstruction.
-Efficiency,Latency; token use; VRAM/resource measures,Resource/engineering efficiency,Efficiency is not correctness.
-Cross-environment robustness,Browser/device compatibility labels and detector,Robustness across tested environments,Conditional on tested environment matrix.
+"ConstructFamily","RepresentativeInstrumentFamilies","DirectMeasure","InferenceBoundary"
+"Visual resemblance","CLIP/embedding similarity; SSIM/pixel/perceptual measures; Block/Text/Position/Color families","Rendered visual resemblance","Does not by itself establish behavior or engineering quality."
+"Structural/content","TreeBLEU; DOM/tag/text/code/reference correspondence; element/layout measures","Reference structure/content correspondence","Reference structure may not be uniquely required for correct implementation."
+"Executability","Build/compile/render success; invalid-render gates","Ability to execute/render under specified toolchain","Necessary but not sufficient for visual or functional correctness."
+"Interaction/functionality","Implement/readiness rates; executed action/state checks; usability/behavior assessment","Specified actions/states under an explicit oracle","Report missed/unreached states and conditional denominators; visual similarity is not executed behavior."
+"Temporal fidelity","Appearance and temporal similarity; video/rubric evaluation","Motion/animation correspondence over time","Not generic backend or navigation correctness."
+"Engineering/reuse","Component reuse; repetition; maintainability/readability proxies; semantic/code ratings","Structural reuse, code proxies or bounded human ratings/edits","Distinguish measured developer work from code-composition proxies; no longitudinal maintenance inference."
+"Accessibility/usability","Accessibility repair/checks; direct usability assessment","User-facing/accessibility outcome","Task-specific; not uniformly applicable to static reconstruction."
+"Efficiency","Latency; token use; VRAM/resource measures","Resource cost under stated hardware and measurement boundary","Backbone FLOPs, retained-token ratios and latency have different boundaries; quality preservation is measure-specific."
+"Cross-environment robustness","Browser/device compatibility labels and detector","Robustness across tested environments","Conditional on tested environment matrix."

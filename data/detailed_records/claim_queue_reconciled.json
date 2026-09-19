@@ -1,0 +1,347 @@
+[
+  {
+    "record_id": "C01",
+    "study_id": "P04",
+    "original_sheet": "Claim Queue",
+    "original_row": 5,
+    "original_record": {
+      "row": 5,
+      "cells": {
+        "A": "C01",
+        "B": "P04",
+        "C": "Rankings agree with professional assessment",
+        "D": "Ranking association; item-level calibration not established",
+        "E": "https://aclanthology.org/2025.findings-acl.334.pdf §5.2.5, Table 6",
+        "F": "AI source audit prepared in B3 Evidence Audit; independent decision remains blank"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published abstract: DOM element and sequence-layout definitions; other detail from archived v2 extraction, not presumed publication-equivalent",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "archived_scope_only",
+    "decision_reason": "Model-ranking association is retained from the archived extraction; detailed publication equivalence is not newly established."
+  },
+  {
+    "record_id": "C02",
+    "study_id": "P07",
+    "original_sheet": "Claim Queue",
+    "original_row": 6,
+    "original_record": {
+      "row": 6,
+      "cells": {
+        "A": "C02",
+        "B": "P07",
+        "C": "Layout measure aligns with humans",
+        "D": "Separate aggregation levels and tie handling",
+        "E": "https://aclanthology.org/2025.naacl-long.198.pdf §4.5, Appendices A/D/G",
+        "F": "AI source audit prepared in B3 Evidence Audit; independent decision remains blank"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§3.2, 4.5, 5; Appendix D: Externally supplied sketches define the reconstruction task. Expert interviews address workflow preferences and expected utility; simulated-user feedback checks address feedback quality. Neither establishes observed productivity gains or item-level validity of the visual metric. Derived webpage ancestry links this study to Design2Code.",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "hold_specific_claim",
+    "decision_reason": "The recent P07 check supports workflow preference, not this inherited layout-metric claim. E32–E38 require passage-level attribution before reuse."
+  },
+  {
+    "record_id": "C03",
+    "study_id": "P08",
+    "original_sheet": "Claim Queue",
+    "original_row": 7,
+    "original_record": {
+      "row": 7,
+      "cells": {
+        "A": "C03",
+        "B": "P08",
+        "C": "Framework correlates strongly with experts",
+        "D": "Do not relabel unspecified correlation type",
+        "E": "https://aclanthology.org/2025.findings-acl.815.pdf §4.2, Table 2",
+        "F": "AI source audit prepared in B3 Evidence Audit; independent decision remains blank"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "retain_scoped_interpretation",
+    "decision_reason": "Retain author-reported correlation with the unspecified-estimator and aggregation caveats."
+  },
+  {
+    "record_id": "C04",
+    "study_id": "P15",
+    "original_sheet": "Claim Queue",
+    "original_row": 8,
+    "original_record": {
+      "row": 8,
+      "cells": {
+        "A": "C04",
+        "B": "P15",
+        "C": "Human validation supports judge",
+        "D": "Does not also validate AST proxies",
+        "E": "https://arxiv.org/html/2506.06251v2 §5.4",
+        "F": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2506.06251v3 §5.4: judge accuracy distinct from human reliability",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "retain_new_version_scope",
+    "decision_reason": "Retain tested judge agreement from inspected v3; do not transfer this to AST proxies or certify the older v2 row."
+  },
+  {
+    "record_id": "C05",
+    "study_id": "P15",
+    "original_sheet": "Claim Queue",
+    "original_row": 9,
+    "original_record": {
+      "row": 9,
+      "cells": {
+        "A": "C05",
+        "B": "P15",
+        "C": "Low BLEU indicates no memorization",
+        "D": "Cannot rule out exposure or partial memorization",
+        "E": "https://arxiv.org/html/2506.06251v2 §5.3",
+        "F": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2506.06251v3 §5.4: judge accuracy distinct from human reliability",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "hold_specific_claim",
+    "decision_reason": "No new source decision establishes the no-memorization claim; low output overlap alone is insufficient to exclude exposure."
+  },
+  {
+    "record_id": "C06",
+    "study_id": "P17",
+    "original_sheet": "Claim Queue",
+    "original_row": 10,
+    "original_record": {
+      "row": 10,
+      "cells": {
+        "A": "C06",
+        "B": "P17",
+        "C": "Weights validated by human alignment",
+        "D": "Calibration differs from confirmation",
+        "E": "https://arxiv.org/html/2509.24709v2 Appendix C",
+        "F": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "ICLR 2026 §§4.1–4.2, §5.4, Appendix C p17: interactive external-video task; success-conditioned visual score; human sample used for weight calibration, not demonstrated held-out validation",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S17",
+      "D07"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "retain_scoped_interpretation",
+    "decision_reason": "Use the checked ICLR publication for calibration; do not call the same-sample weight selection held-out confirmation."
+  },
+  {
+    "record_id": "C07",
+    "study_id": "P14",
+    "original_sheet": "Claim Queue",
+    "original_row": 11,
+    "original_record": {
+      "row": 11,
+      "cells": {
+        "A": "C07",
+        "B": "P14",
+        "C": "Human study verifies metric reliability",
+        "D": "Agreement differs from metric correlation",
+        "E": "https://arxiv.org/html/2510.04097v1 Appendix E, Table 6",
+        "F": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "outside_cited_universe",
+    "decision_reason": "Retain as a discovery/claim-audit record; not evidence used by the current 35-family synthesis."
+  },
+  {
+    "record_id": "C08",
+    "study_id": "P18",
+    "original_sheet": "Claim Queue",
+    "original_row": 12,
+    "original_record": {
+      "row": 12,
+      "cells": {
+        "A": "C08",
+        "B": "P18",
+        "C": "Preference study validates similarity",
+        "D": "Clarify what is synthetic",
+        "E": "https://arxiv.org/pdf/2602.18548 §3.3, Figure 3A, Appendix B (22-page report)",
+        "F": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "H05 perturbation interpretation only; v1/v3 discrepancy retained",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "retain_human_scoped_interpretation",
+    "decision_reason": "Preserve H05 perturbation/visual-closeness scope and the v1/v3 provenance distinction."
+  },
+  {
+    "record_id": "C09",
+    "study_id": "P44",
+    "original_sheet": "Claim Queue",
+    "original_row": 13,
+    "original_record": {
+      "row": 13,
+      "cells": {
+        "A": "C09",
+        "B": "P44",
+        "C": "Final-screenshot verifier unreliable",
+        "D": "Applies to tested oracle/task distribution",
+        "E": "https://arxiv.org/html/2511.15567v1 Table 6",
+        "F": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "outside_cited_universe",
+    "decision_reason": "Retain as a discovery/claim-audit record; not evidence used by the current 35-family synthesis."
+  },
+  {
+    "record_id": "C10",
+    "study_id": "P51",
+    "original_sheet": "Claim Queue",
+    "original_row": 14,
+    "original_record": {
+      "row": 14,
+      "cells": {
+        "A": "C10",
+        "B": "P51",
+        "C": "Selected judge is a reliable proxy",
+        "D": "Separate selection from confirmation",
+        "E": "https://arxiv.org/html/2604.18224v1 §4.3.1, Table 4",
+        "F": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "outside_cited_universe",
+    "decision_reason": "Retain as a discovery/claim-audit record; not evidence used by the current 35-family synthesis."
+  },
+  {
+    "record_id": "C11",
+    "study_id": "P55",
+    "original_sheet": "Claim Queue",
+    "original_row": 15,
+    "original_record": {
+      "row": 15,
+      "cells": {
+        "A": "C11",
+        "B": "P55",
+        "C": "Evaluation aligns with humans",
+        "D": "Does not certify all code/build judgments",
+        "E": "https://arxiv.org/pdf/2608.03689v1 Experiments, Tables 2/4",
+        "F": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "outside_cited_universe",
+    "decision_reason": "Retain as a discovery/claim-audit record; not evidence used by the current 35-family synthesis."
+  },
+  {
+    "record_id": "C12",
+    "study_id": "P60",
+    "original_sheet": "Claim Queue",
+    "original_row": 16,
+    "original_record": {
+      "row": 16,
+      "cells": {
+        "A": "C12",
+        "B": "P60",
+        "C": "Probe diagnoses pattern bias",
+        "D": "Specific error direction, not overall quality",
+        "E": "https://arxiv.org/html/2608.03691v1 §§3.3–3.5",
+        "F": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "outside_cited_universe",
+    "decision_reason": "Retain as a discovery/claim-audit record; not evidence used by the current 35-family synthesis."
+  },
+  {
+    "record_id": "C13",
+    "study_id": "P22",
+    "original_sheet": "Claim Queue",
+    "original_row": 17,
+    "original_record": {
+      "row": 17,
+      "cells": {
+        "A": "C13",
+        "B": "P22",
+        "C": "Human comparison validates automatic metrics",
+        "D": "Supports method preference and rating consistency; does not separately calibrate every metric",
+        "E": "https://arxiv.org/html/2602.19276v1 §6.1, Appendices A.5–A.6",
+        "F": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§2.1, 5.1, 6.1; Appendices A5.3, A6: External mockups constrain multi-page generation. Reuse and repetition scores are structural proxies. The main text describes a one-third human-study sample while the appendix describes 100 pages; these accounts are not reconciled. Annotator reliability and agreement in method preference do not establish item-level validity of each automatic metric. Reuse wording and its appendix formula also require caution.",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "current_claim_decision": "retain_scoped_interpretation",
+    "decision_reason": "Retain method preference and rating consistency; sample descriptions conflict and individual metric validity is not established."
+  }
+]

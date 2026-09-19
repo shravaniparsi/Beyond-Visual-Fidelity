@@ -1,0 +1,2857 @@
+[
+  {
+    "record_id": "E01",
+    "study_id": "P01",
+    "original_sheet": "Evidence Queue",
+    "original_row": 5,
+    "original_record": {
+      "row": 5,
+      "cells": {
+        "A": "E01",
+        "B": "P01",
+        "C": "P01-I06",
+        "D": "Criterion evidence",
+        "E": "Human visual Win/Lose",
+        "F": "Not individual-metric validation; design-level nesting",
+        "G": "https://arxiv.org/html/2403.03163v3 §4.3",
+        "H": "Partial — batch 2 source check",
+        "I": "100 annotated pages; 50/50 split; pair-level allocation wording unclear; 79.9% reported; no raw-label replication; Positive, criterion-specific; not every component's validity | https://aclanthology.org/2025.naacl-long.199.pdf"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "NAACL 2025 published PDF §4.3/Table 2, p3962: combined visual-preference predictor and held-out split verified; not individual-metric or functional validity",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P01-I06"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E02",
+    "study_id": "P12",
+    "original_sheet": "Evidence Queue",
+    "original_row": 6,
+    "original_record": {
+      "row": 6,
+      "cells": {
+        "A": "E02",
+        "B": "P12",
+        "C": "P12-I01",
+        "D": "Criterion evidence",
+        "E": "Five-level human similarity",
+        "F": "Absolute value removes sign; not behavior",
+        "G": "https://arxiv.org/html/2412.15310v1 §6.1, Table 2",
+        "H": "Source interpretation checked; raw-data and human verification open",
+        "I": "600 screenshot pairs;14 raters; shared sample B5-SAMPLE-P12-01 | Absolute SROCC=0.542 | Raw ranks distinct from fitted linear/nonlinear mappings; separate held-out confirmation not located in inspected sections",
+        "J": "AI-assisted B5 / 2026-09-16; not human sign-off"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2412.15310v1 §6.1/Table 2: shared 600-pair criterion study",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S12"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P12-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E03",
+    "study_id": "P12",
+    "original_sheet": "Evidence Queue",
+    "original_row": 7,
+    "original_record": {
+      "row": 7,
+      "cells": {
+        "A": "E03",
+        "B": "P12",
+        "C": "P12-I02",
+        "D": "Criterion evidence",
+        "E": "Five-level human similarity",
+        "F": "Absolute value removes sign; not behavior",
+        "G": "https://arxiv.org/html/2412.15310v1 §6.1, Table 2",
+        "H": "Source interpretation checked; raw-data and human verification open",
+        "I": "600 screenshot pairs;14 raters; shared sample B5-SAMPLE-P12-01 | Absolute SROCC=0.508 | Raw ranks distinct from fitted linear/nonlinear mappings; separate held-out confirmation not located in inspected sections",
+        "J": "AI-assisted B5 / 2026-09-16; not human sign-off"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2412.15310v1 §6.1/Table 2: shared 600-pair criterion study",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S12"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P12-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E04",
+    "study_id": "P12",
+    "original_sheet": "Evidence Queue",
+    "original_row": 8,
+    "original_record": {
+      "row": 8,
+      "cells": {
+        "A": "E04",
+        "B": "P12",
+        "C": "P12-I03",
+        "D": "Criterion evidence",
+        "E": "Five-level human similarity",
+        "F": "Absolute value removes sign; not behavior",
+        "G": "https://arxiv.org/html/2412.15310v1 §6.1, Table 2",
+        "H": "Source interpretation checked; raw-data and human verification open",
+        "I": "600 screenshot pairs;14 raters; shared sample B5-SAMPLE-P12-01 | Absolute SROCC=0.451 | Raw ranks distinct from fitted linear/nonlinear mappings; separate held-out confirmation not located in inspected sections",
+        "J": "AI-assisted B5 / 2026-09-16; not human sign-off"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2412.15310v1 §6.1/Table 2: shared 600-pair criterion study",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S12"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P12-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E05",
+    "study_id": "P12",
+    "original_sheet": "Evidence Queue",
+    "original_row": 9,
+    "original_record": {
+      "row": 9,
+      "cells": {
+        "A": "E05",
+        "B": "P12",
+        "C": "P12-I04",
+        "D": "Criterion evidence",
+        "E": "Five-level human similarity",
+        "F": "Absolute value removes sign; not behavior",
+        "G": "https://arxiv.org/html/2412.15310v1 §6.1, Table 2",
+        "H": "Source interpretation checked; raw-data and human verification open",
+        "I": "600 screenshot pairs;14 raters; shared sample B5-SAMPLE-P12-01 | Absolute SROCC=0.34 | Raw ranks distinct from fitted linear/nonlinear mappings; separate held-out confirmation not located in inspected sections",
+        "J": "AI-assisted B5 / 2026-09-16; not human sign-off"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2412.15310v1 §6.1/Table 2: shared 600-pair criterion study",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S12"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P12-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E06",
+    "study_id": "P12",
+    "original_sheet": "Evidence Queue",
+    "original_row": 10,
+    "original_record": {
+      "row": 10,
+      "cells": {
+        "A": "E06",
+        "B": "P12",
+        "C": "P12-I05",
+        "D": "Criterion evidence",
+        "E": "Five-level human similarity",
+        "F": "Absolute value removes sign; not behavior",
+        "G": "https://arxiv.org/html/2412.15310v1 §6.1, Table 2",
+        "H": "Source interpretation checked; raw-data and human verification open",
+        "I": "600 screenshot pairs;14 raters; shared sample B5-SAMPLE-P12-01 | Absolute SROCC=0.218 | Raw ranks distinct from fitted linear/nonlinear mappings; separate held-out confirmation not located in inspected sections",
+        "J": "AI-assisted B5 / 2026-09-16; not human sign-off"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2412.15310v1 §6.1/Table 2: shared 600-pair criterion study",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S12"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P12-I05"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E07",
+    "study_id": "P12",
+    "original_sheet": "Evidence Queue",
+    "original_row": 11,
+    "original_record": {
+      "row": 11,
+      "cells": {
+        "A": "E07",
+        "B": "P12",
+        "C": "P12-I06",
+        "D": "Criterion evidence",
+        "E": "Five-level human similarity",
+        "F": "Absolute value removes sign; not behavior",
+        "G": "https://arxiv.org/html/2412.15310v1 §6.1, Table 2",
+        "H": "Source interpretation checked; raw-data and human verification open",
+        "I": "600 screenshot pairs;14 raters; shared sample B5-SAMPLE-P12-01 | Absolute SROCC=0.168 | Raw ranks distinct from fitted linear/nonlinear mappings; separate held-out confirmation not located in inspected sections",
+        "J": "AI-assisted B5 / 2026-09-16; not human sign-off"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2412.15310v1 §6.1/Table 2: shared 600-pair criterion study",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S12"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P12-I06"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E08",
+    "study_id": "P12",
+    "original_sheet": "Evidence Queue",
+    "original_row": 12,
+    "original_record": {
+      "row": 12,
+      "cells": {
+        "A": "E08",
+        "B": "P12",
+        "C": "P12-I08",
+        "D": "Human-rater consistency",
+        "E": "Other human ratings",
+        "F": "Not an automated score",
+        "G": "https://arxiv.org/html/2412.15310v1 §6.1, Table 2",
+        "H": "Source interpretation checked; raw-data and human verification open",
+        "I": "Shared 600-pair/14-rater study; pairwise assignment details not fully extracted | Average pairwise human SROCC (as reported)=0.64 | Not an automatic-metric calibration coefficient",
+        "J": "AI-assisted B5 / 2026-09-16; not human sign-off"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2412.15310v1 §6.1/Table 2: shared 600-pair criterion study",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S12"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P12-I08"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E09",
+    "study_id": "P32",
+    "original_sheet": "Evidence Queue",
+    "original_row": 13,
+    "original_record": {
+      "row": 13,
+      "cells": {
+        "A": "E09",
+        "B": "P32",
+        "C": "P32-I01",
+        "D": "Criterion evidence",
+        "E": "Human test-node decisions",
+        "F": "218 agreements; nested nodes, rater count unresolved",
+        "G": "https://arxiv.org/html/2603.26648v2 §4.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§2.1, 3.2, 4.1, 4.4; Appendix A2.2: External prototypes constrain static and interactive tasks. Functional validation reports 218/250 correct node judgments sampled within approximately 100 workflows across 64 tasks: nodes are clustered. Visual-judge agreement is a separate prototype-ranking exercise. Deployment permits retries; precise contributions of missing/unreached nodes remain unresolved. Planned evaluator updates make version pinning necessary.",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S32"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P32-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E10",
+    "study_id": "P32",
+    "original_sheet": "Evidence Queue",
+    "original_row": 14,
+    "original_record": {
+      "row": 14,
+      "cells": {
+        "A": "E10",
+        "B": "P32",
+        "C": "P32-I02",
+        "D": "Criterion evidence",
+        "E": "Human preference ranks",
+        "F": "Rank-set construction/uncertainty unresolved",
+        "G": "https://arxiv.org/html/2603.26648v2 §4.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§2.1, 3.2, 4.1, 4.4; Appendix A2.2: External prototypes constrain static and interactive tasks. Functional validation reports 218/250 correct node judgments sampled within approximately 100 workflows across 64 tasks: nodes are clustered. Visual-judge agreement is a separate prototype-ranking exercise. Deployment permits retries; precise contributions of missing/unreached nodes remain unresolved. Planned evaluator updates make version pinning necessary.",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S32"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P32-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E11",
+    "study_id": "P32",
+    "original_sheet": "Evidence Queue",
+    "original_row": 15,
+    "original_record": {
+      "row": 15,
+      "cells": {
+        "A": "E11",
+        "B": "P32",
+        "C": "P32-I02",
+        "D": "Criterion evidence",
+        "E": "Human preference ranks",
+        "F": "Rank-set construction/uncertainty unresolved",
+        "G": "https://arxiv.org/html/2603.26648v2 §4.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§2.1, 3.2, 4.1, 4.4; Appendix A2.2: External prototypes constrain static and interactive tasks. Functional validation reports 218/250 correct node judgments sampled within approximately 100 workflows across 64 tasks: nodes are clustered. Visual-judge agreement is a separate prototype-ranking exercise. Deployment permits retries; precise contributions of missing/unreached nodes remain unresolved. Planned evaluator updates make version pinning necessary.",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S32"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P32-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E12",
+    "study_id": "P32",
+    "original_sheet": "Evidence Queue",
+    "original_row": 16,
+    "original_record": {
+      "row": 16,
+      "cells": {
+        "A": "E12",
+        "B": "P32",
+        "C": "P32-I03",
+        "D": "Human-rater consistency",
+        "E": "Other annotators",
+        "F": "Rater count unresolved",
+        "G": "https://arxiv.org/html/2603.26648v2 §4.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§2.1, 3.2, 4.1, 4.4; Appendix A2.2: External prototypes constrain static and interactive tasks. Functional validation reports 218/250 correct node judgments sampled within approximately 100 workflows across 64 tasks: nodes are clustered. Visual-judge agreement is a separate prototype-ranking exercise. Deployment permits retries; precise contributions of missing/unreached nodes remain unresolved. Planned evaluator updates make version pinning necessary.",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S32"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P32-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E13",
+    "study_id": "P13",
+    "original_sheet": "Evidence Queue",
+    "original_row": 17,
+    "original_record": {
+      "row": 17,
+      "cells": {
+        "A": "E13",
+        "B": "P13",
+        "C": "P13-I01",
+        "D": "Criterion evidence",
+        "E": "Human mockup ratings",
+        "F": "Overall aggregation needs clarification",
+        "G": "https://arxiv.org/html/2508.16763v1 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P13-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E14",
+    "study_id": "P13",
+    "original_sheet": "Evidence Queue",
+    "original_row": 18,
+    "original_record": {
+      "row": 18,
+      "cells": {
+        "A": "E14",
+        "B": "P13",
+        "C": "P13-I01",
+        "D": "Criterion evidence",
+        "E": "Human mockup ratings",
+        "F": "Not interchangeable with Spearman",
+        "G": "https://arxiv.org/html/2508.16763v1 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P13-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E15",
+    "study_id": "P13",
+    "original_sheet": "Evidence Queue",
+    "original_row": 19,
+    "original_record": {
+      "row": 19,
+      "cells": {
+        "A": "E15",
+        "B": "P13",
+        "C": "P13-I02",
+        "D": "Criterion evidence",
+        "E": "Human mockup ratings",
+        "F": "Overall aggregation needs clarification",
+        "G": "https://arxiv.org/html/2508.16763v1 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P13-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E16",
+    "study_id": "P13",
+    "original_sheet": "Evidence Queue",
+    "original_row": 20,
+    "original_record": {
+      "row": 20,
+      "cells": {
+        "A": "E16",
+        "B": "P13",
+        "C": "P13-I02",
+        "D": "Criterion evidence",
+        "E": "Human mockup ratings",
+        "F": "Not interchangeable with Spearman",
+        "G": "https://arxiv.org/html/2508.16763v1 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P13-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E17",
+    "study_id": "P13",
+    "original_sheet": "Evidence Queue",
+    "original_row": 21,
+    "original_record": {
+      "row": 21,
+      "cells": {
+        "A": "E17",
+        "B": "P13",
+        "C": "P13-I03",
+        "D": "Criterion evidence",
+        "E": "Human mockup ratings",
+        "F": "Overall aggregation needs clarification",
+        "G": "https://arxiv.org/html/2508.16763v1 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P13-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E18",
+    "study_id": "P13",
+    "original_sheet": "Evidence Queue",
+    "original_row": 22,
+    "original_record": {
+      "row": 22,
+      "cells": {
+        "A": "E18",
+        "B": "P13",
+        "C": "P13-I03",
+        "D": "Criterion evidence",
+        "E": "Human mockup ratings",
+        "F": "Not interchangeable with Spearman",
+        "G": "https://arxiv.org/html/2508.16763v1 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P13-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E19",
+    "study_id": "P13",
+    "original_sheet": "Evidence Queue",
+    "original_row": 23,
+    "original_record": {
+      "row": 23,
+      "cells": {
+        "A": "E19",
+        "B": "P13",
+        "C": "P13-I04",
+        "D": "Criterion evidence",
+        "E": "Expert assessments",
+        "F": "Not executed regression tests",
+        "G": "https://arxiv.org/html/2508.16763v1 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P13-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E20",
+    "study_id": "P52",
+    "original_sheet": "Evidence Queue",
+    "original_row": 24,
+    "original_record": {
+      "row": 24,
+      "cells": {
+        "A": "E20",
+        "B": "P52",
+        "C": "P52-I05 / P52-I02",
+        "D": "Source inconsistency confirmed",
+        "E": "Two developers",
+        "F": "§4 calls this matcher validation; B.5 concerns action extraction. Exclude from instrument-specific quantitative summaries.",
+        "G": "https://arxiv.org/html/2606.00154v1 §4, Appendix B.5",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§3.1; Appendices A1, B5–B7; Table 8, PDF pp12–18: State images and optional actions define generation. Table 8 valid-evaluation counts vary from 92 to 103 across configurations. Match scoring is conditional on matched steps; Full scoring carries the last available screenshot forward. Zero-match/no-screenshot handling remains unresolved. Main-text matcher validation and appendix sequence-extraction annotation describe different units and must not be conflated. Cross-LLM matching agreement is stability evidence, not another human criterion.",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S52"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P52-I05",
+      "P52-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E21",
+    "study_id": "P53",
+    "original_sheet": "Evidence Queue",
+    "original_row": 25,
+    "original_record": {
+      "row": 25,
+      "cells": {
+        "A": "E21",
+        "B": "P53",
+        "C": "P53-I01",
+        "D": "Criterion evidence",
+        "E": "Human video/trace judgment",
+        "F": "Precision and chance agreement unresolved",
+        "G": "https://arxiv.org/html/2606.20711v1 §4.7",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P53-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E22",
+    "study_id": "P53",
+    "original_sheet": "Evidence Queue",
+    "original_row": 26,
+    "original_record": {
+      "row": 26,
+      "cells": {
+        "A": "E22",
+        "B": "P53",
+        "C": "P53-I02",
+        "D": "Conditional criterion evidence",
+        "E": "Human visual scores",
+        "F": "Cannot generalize to all outputs",
+        "G": "https://arxiv.org/html/2606.20711v1 §4.7",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P53-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E23",
+    "study_id": "P56",
+    "original_sheet": "Evidence Queue",
+    "original_row": 27,
+    "original_record": {
+      "row": 27,
+      "cells": {
+        "A": "E23",
+        "B": "P56",
+        "C": "P56-I01",
+        "D": "Criterion evidence",
+        "E": "Injected faults",
+        "F": "Adjacent text-led task; shared page families",
+        "G": "https://arxiv.org/html/2608.06474v1 Tables 4 and 13",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P56-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E24",
+    "study_id": "P56",
+    "original_sheet": "Evidence Queue",
+    "original_row": 28,
+    "original_record": {
+      "row": 28,
+      "cells": {
+        "A": "E24",
+        "B": "P56",
+        "C": "P56-I01",
+        "D": "Criterion evidence",
+        "E": "Clean pages",
+        "F": "Small clean sample; not recall",
+        "G": "https://arxiv.org/html/2608.06474v1 Tables 4 and 13",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P56-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E25",
+    "study_id": "P23",
+    "original_sheet": "Evidence Queue",
+    "original_row": 29,
+    "original_record": {
+      "row": 29,
+      "cells": {
+        "A": "E25",
+        "B": "P23",
+        "C": "P23-I02",
+        "D": "Criterion evidence",
+        "E": "Adjudicated compatibility labels",
+        "F": "Pairs nested within pages; source-family disjointness unresolved",
+        "G": "Uploaded 2608.12518.pdf, §III-B, §IV-B, Table V; https://arxiv.org/abs/2608.12518",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "H08 conditional compatibility denominator only",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P23-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E26",
+    "study_id": "P23",
+    "original_sheet": "Evidence Queue",
+    "original_row": 30,
+    "original_record": {
+      "row": 30,
+      "cells": {
+        "A": "E26",
+        "B": "P23",
+        "C": "P23-I02",
+        "D": "Criterion evidence",
+        "E": "Adjudicated compatibility labels",
+        "F": "Pairs nested within pages; source-family disjointness unresolved",
+        "G": "Uploaded 2608.12518.pdf, §III-B, §IV-B, Table V; https://arxiv.org/abs/2608.12518",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "H08 conditional compatibility denominator only",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P23-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E27",
+    "study_id": "P23",
+    "original_sheet": "Evidence Queue",
+    "original_row": 31,
+    "original_record": {
+      "row": 31,
+      "cells": {
+        "A": "E27",
+        "B": "P23",
+        "C": "P23-I02",
+        "D": "Criterion evidence",
+        "E": "Adjudicated compatibility labels",
+        "F": "Pairs nested within pages; source-family disjointness unresolved",
+        "G": "Uploaded 2608.12518.pdf, §III-B, §IV-B, Table V; https://arxiv.org/abs/2608.12518",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "H08 conditional compatibility denominator only",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P23-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E28",
+    "study_id": "P23",
+    "original_sheet": "Evidence Queue",
+    "original_row": 32,
+    "original_record": {
+      "row": 32,
+      "cells": {
+        "A": "E28",
+        "B": "P23",
+        "C": "P23-I02",
+        "D": "Criterion evidence",
+        "E": "Adjudicated compatibility labels",
+        "F": "Pairs nested within pages; source-family disjointness unresolved",
+        "G": "Uploaded 2608.12518.pdf, §III-B, §IV-B, Table V; https://arxiv.org/abs/2608.12518",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "H08 conditional compatibility denominator only",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P23-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E29",
+    "study_id": "P23",
+    "original_sheet": "Evidence Queue",
+    "original_row": 33,
+    "original_record": {
+      "row": 33,
+      "cells": {
+        "A": "E29",
+        "B": "P23",
+        "C": "P23-I03",
+        "D": "Human-rater consistency",
+        "E": "Independent compatibility labels",
+        "F": "Validation denominator not separately confirmed",
+        "G": "Uploaded 2608.12518.pdf, §III-B, §IV-B, Table V; https://arxiv.org/abs/2608.12518",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "H08 conditional compatibility denominator only",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P23-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E30",
+    "study_id": "P23",
+    "original_sheet": "Evidence Queue",
+    "original_row": 34,
+    "original_record": {
+      "row": 34,
+      "cells": {
+        "A": "E30",
+        "B": "P23",
+        "C": "P23-I04",
+        "D": "Human-rater consistency",
+        "E": "Independent issue classes",
+        "F": "Different target from binary labels",
+        "G": "Uploaded 2608.12518.pdf, §III-B, §IV-B, Table V; https://arxiv.org/abs/2608.12518",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "H08 conditional compatibility denominator only",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P23-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E31",
+    "study_id": "P04",
+    "original_sheet": "Evidence Queue",
+    "original_row": 35,
+    "original_record": {
+      "row": 35,
+      "cells": {
+        "A": "E31",
+        "B": "P04",
+        "C": "P04-I03",
+        "D": "Criterion evidence",
+        "E": "Professional ranking",
+        "F": "p=.104; not item-level calibration",
+        "G": "https://aclanthology.org/2025.findings-acl.334.pdf §5.2.5, Table 6",
+        "H": "Source-level criterion/analysis-unit reconciliation complete; human review pending",
+        "I": "20 professionals; 100 generated webpages stated; five model-ranking pairs in Table 6. Appendix G is a 12-item mixed questionnaire, not visual-only. Pearson r=.8/p=.104 reproduce; per-page allocation and independence from metric selection remain unclear.",
+        "J": "AI check 2026-09-17; §5.2.5 p.7, Table 6 p.8, Appendix G pp.15–16; arXiv:2409.18980v2. No new human approval."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published abstract: DOM element and sequence-layout definitions; other detail from archived v2 extraction, not presumed publication-equivalent",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P04-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E32",
+    "study_id": "P07",
+    "original_sheet": "Evidence Queue",
+    "original_row": 36,
+    "original_record": {
+      "row": 36,
+      "cells": {
+        "A": "E32",
+        "B": "P07",
+        "C": "P07-I02",
+        "D": "Criterion evidence",
+        "E": "Satisfaction proportion",
+        "F": "p=.00008 main / .0008 appendix",
+        "G": "https://aclanthology.org/2025.naacl-long.198.pdf §4.5, Appendices A/D/G",
+        "H": "AI source check prepared; human check pending",
+        "I": "10 model means;50 outputs/model;3 ratings/output | r²=.870612; Pearsonp=.0000809572 from displayedvalues | Metric parameter tuning / separate confirmation not established"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§3.2, 4.5, 5; Appendix D: Externally supplied sketches define the reconstruction task. Expert interviews address workflow preferences and expected utility; simulated-user feedback checks address feedback quality. Neither establishes observed productivity gains or item-level validity of the visual metric. Derived webpage ancestry links this study to Design2Code.",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P07-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Hold inherited P07 metric-validation attribution pending passage-level recheck; workflow preference check does not resolve it."
+  },
+  {
+    "record_id": "E33",
+    "study_id": "P07",
+    "original_sheet": "Evidence Queue",
+    "original_row": 37,
+    "original_record": {
+      "row": 37,
+      "cells": {
+        "A": "E33",
+        "B": "P07",
+        "C": "P07-I02",
+        "D": "Criterion evidence",
+        "E": "Satisfaction proportion",
+        "F": "p=.004",
+        "G": "https://aclanthology.org/2025.naacl-long.198.pdf §4.5, Appendices A/D/G",
+        "H": "AI source check prepared; human check pending",
+        "I": "Same 10model aggregates asE32 | tau-b=.719147;p=.00405714 (asymptotic, ties) | Same sharedsample asE32"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§3.2, 4.5, 5; Appendix D: Externally supplied sketches define the reconstruction task. Expert interviews address workflow preferences and expected utility; simulated-user feedback checks address feedback quality. Neither establishes observed productivity gains or item-level validity of the visual metric. Derived webpage ancestry links this study to Design2Code.",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P07-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Hold inherited P07 metric-validation attribution pending passage-level recheck; workflow preference check does not resolve it."
+  },
+  {
+    "record_id": "E34",
+    "study_id": "P07",
+    "original_sheet": "Evidence Queue",
+    "original_row": 38,
+    "original_record": {
+      "row": 38,
+      "cells": {
+        "A": "E34",
+        "B": "P07",
+        "C": "P07-I02",
+        "D": "Criterion evidence",
+        "E": "Mean ordinal rating",
+        "F": "p=.00009",
+        "G": "https://aclanthology.org/2025.naacl-long.198.pdf §4.5, Appendices A/D/G",
+        "H": "AI source check prepared; human check pending",
+        "I": "Same 10model aggregates; ordinal coding1,.5,0 | Displayed-table r²=.864348;p=.0000980858; authorr²=.86,p=.00009 | Same sharedsample; Table3 categories need reconciliation"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§3.2, 4.5, 5; Appendix D: Externally supplied sketches define the reconstruction task. Expert interviews address workflow preferences and expected utility; simulated-user feedback checks address feedback quality. Neither establishes observed productivity gains or item-level validity of the visual metric. Derived webpage ancestry links this study to Design2Code.",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P07-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Hold inherited P07 metric-validation attribution pending passage-level recheck; workflow preference check does not resolve it."
+  },
+  {
+    "record_id": "E35",
+    "study_id": "P07",
+    "original_sheet": "Evidence Queue",
+    "original_row": 39,
+    "original_record": {
+      "row": 39,
+      "cells": {
+        "A": "E35",
+        "B": "P07",
+        "C": "P07-I02",
+        "D": "Criterion evidence",
+        "E": "Mean ordinal rating",
+        "F": "p=.009",
+        "G": "https://aclanthology.org/2025.naacl-long.198.pdf §4.5, Appendices A/D/G",
+        "H": "AI source check prepared; human check pending",
+        "I": "Same 10model aggregates; ordinal coding | tau-b=.644444;p=.00914848 (exact no-tie test) | Same sharedsample; rawlabels unavailable"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§3.2, 4.5, 5; Appendix D: Externally supplied sketches define the reconstruction task. Expert interviews address workflow preferences and expected utility; simulated-user feedback checks address feedback quality. Neither establishes observed productivity gains or item-level validity of the visual metric. Derived webpage ancestry links this study to Design2Code.",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P07-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Hold inherited P07 metric-validation attribution pending passage-level recheck; workflow preference check does not resolve it."
+  },
+  {
+    "record_id": "E36",
+    "study_id": "P07",
+    "original_sheet": "Evidence Queue",
+    "original_row": 40,
+    "original_record": {
+      "row": 40,
+      "cells": {
+        "A": "E36",
+        "B": "P07",
+        "C": "P07-I02",
+        "D": "Criterion evidence",
+        "E": "Human pair preference",
+        "F": "Ties excluded; retained N unresolved",
+        "G": "https://aclanthology.org/2025.naacl-long.198.pdf §4.5, Appendices A/D/G",
+        "H": "AI source check prepared; human check pending",
+        "I": "Pair count after excludedties not located | 69.2% (authorreported; not recomputed) | No rawratings/parameter-selection split located"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§3.2, 4.5, 5; Appendix D: Externally supplied sketches define the reconstruction task. Expert interviews address workflow preferences and expected utility; simulated-user feedback checks address feedback quality. Neither establishes observed productivity gains or item-level validity of the visual metric. Derived webpage ancestry links this study to Design2Code.",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P07-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Hold inherited P07 metric-validation attribution pending passage-level recheck; workflow preference check does not resolve it."
+  },
+  {
+    "record_id": "E37",
+    "study_id": "P07",
+    "original_sheet": "Evidence Queue",
+    "original_row": 41,
+    "original_record": {
+      "row": 41,
+      "cells": {
+        "A": "E37",
+        "B": "P07",
+        "C": "P07-I04",
+        "D": "Human-rater consistency",
+        "E": "Other annotators",
+        "F": "Not a metric correlation",
+        "G": "https://aclanthology.org/2025.naacl-long.198.pdf §4.5, Appendices A/D/G",
+        "H": "AI source check prepared; human check pending",
+        "I": "Rater comparisons; itemallocation unclear | 65.8% (authorreported; not recomputed) | Shared pairwise study withE36/E38"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§3.2, 4.5, 5; Appendix D: Externally supplied sketches define the reconstruction task. Expert interviews address workflow preferences and expected utility; simulated-user feedback checks address feedback quality. Neither establishes observed productivity gains or item-level validity of the visual metric. Derived webpage ancestry links this study to Design2Code.",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P07-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Hold inherited P07 metric-validation attribution pending passage-level recheck; workflow preference check does not resolve it."
+  },
+  {
+    "record_id": "E38",
+    "study_id": "P07",
+    "original_sheet": "Evidence Queue",
+    "original_row": 42,
+    "original_record": {
+      "row": 42,
+      "cells": {
+        "A": "E38",
+        "B": "P07",
+        "C": "P07-I04",
+        "D": "Human-rater consistency",
+        "E": "Other annotators",
+        "F": "Retained N unresolved",
+        "G": "https://aclanthology.org/2025.naacl-long.198.pdf §4.5, Appendices A/D/G",
+        "H": "AI source check prepared; human check pending",
+        "I": "Main says5annotators; appendix3perstudy; mappingunclear | Fleissκ=.47 (authorreported; not recomputed) | Same pairwise study; allocation clarification required"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§3.2, 4.5, 5; Appendix D: Externally supplied sketches define the reconstruction task. Expert interviews address workflow preferences and expected utility; simulated-user feedback checks address feedback quality. Neither establishes observed productivity gains or item-level validity of the visual metric. Derived webpage ancestry links this study to Design2Code.",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P07-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Hold inherited P07 metric-validation attribution pending passage-level recheck; workflow preference check does not resolve it."
+  },
+  {
+    "record_id": "E39",
+    "study_id": "P08",
+    "original_sheet": "Evidence Queue",
+    "original_row": 43,
+    "original_record": {
+      "row": 43,
+      "cells": {
+        "A": "E39",
+        "B": "P08",
+        "C": "P08-I01",
+        "D": "Criterion evidence",
+        "E": "Expert rankings",
+        "F": "Estimator/aggregation unresolved",
+        "G": "https://aclanthology.org/2025.findings-acl.815.pdf §4.2, Table 2",
+        "H": "Source-level extraction complete; human check pending",
+        "I": "100 samples, three experts, five model conditions; precise rank-correlation estimator and aggregation unit not established. | Table 2 reports full-framework correlations 0.83/0.81/0.85 and mean 0.83. | Rank-correlation estimator/aggregation unclear; independence from construction not established. Same sample across E39–E42."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P08-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E40",
+    "study_id": "P08",
+    "original_sheet": "Evidence Queue",
+    "original_row": 44,
+    "original_record": {
+      "row": 44,
+      "cells": {
+        "A": "E40",
+        "B": "P08",
+        "C": "P08-I06",
+        "D": "Ablated composite evidence",
+        "E": "Expert rankings",
+        "F": "Estimator/aggregation unresolved",
+        "G": "https://aclanthology.org/2025.findings-acl.815.pdf §4.2, Table 2",
+        "H": "Source-level extraction complete; human check pending",
+        "I": "Same 100-sample/three-expert/five-model study as the full framework. | Table 2 expert correlations 0.75/0.74/0.78, printed average 0.76. | Rank-correlation estimator/aggregation unclear; independence from construction not established. Same sample across E39–E42."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P08-I06"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E41",
+    "study_id": "P08",
+    "original_sheet": "Evidence Queue",
+    "original_row": 45,
+    "original_record": {
+      "row": 45,
+      "cells": {
+        "A": "E41",
+        "B": "P08",
+        "C": "P08-I07",
+        "D": "Ablated composite evidence",
+        "E": "Expert rankings",
+        "F": "Estimator/aggregation unresolved",
+        "G": "https://aclanthology.org/2025.findings-acl.815.pdf §4.2, Table 2",
+        "H": "Source-level extraction complete; human check pending",
+        "I": "Same 100-sample/three-expert/five-model study as the full framework. | Table 2 correlations 0.81/0.76/0.81; printed average 0.77. Conditional equal-weight mean is 0.793333. | Rank-correlation estimator/aggregation unclear; independence from construction not established. Same sample across E39–E42."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P08-I07"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E42",
+    "study_id": "P08",
+    "original_sheet": "Evidence Queue",
+    "original_row": 46,
+    "original_record": {
+      "row": 46,
+      "cells": {
+        "A": "E42",
+        "B": "P08",
+        "C": "P08-I04",
+        "D": "Criterion evidence",
+        "E": "Expert rankings",
+        "F": "Estimator/aggregation unresolved",
+        "G": "https://aclanthology.org/2025.findings-acl.815.pdf §4.2, Table 2",
+        "H": "Source-level extraction complete; human check pending",
+        "I": "Same 100-sample human study for ablation; benchmark per-model denominator still unclear. | Expert correlations 0.76/0.75/0.78, with printed average 0.77. | Rank-correlation estimator/aggregation unclear; independence from construction not established. Same sample across E39–E42."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P08-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E43",
+    "study_id": "P15",
+    "original_sheet": "Evidence Queue",
+    "original_row": 47,
+    "original_record": {
+      "row": 47,
+      "cells": {
+        "A": "E43",
+        "B": "P15",
+        "C": "P15-I05",
+        "D": "Criterion evidence",
+        "E": "Human majority",
+        "F": "Ordinal-to-accuracy conversion unresolved",
+        "G": "https://arxiv.org/html/2506.06251v2 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2506.06251v3 §5.4: judge accuracy distinct from human reliability",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P15-I05"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E44",
+    "study_id": "P15",
+    "original_sheet": "Evidence Queue",
+    "original_row": 48,
+    "original_record": {
+      "row": 48,
+      "cells": {
+        "A": "E44",
+        "B": "P15",
+        "C": "P15-I07",
+        "D": "Human-rater consistency",
+        "E": "Other annotators",
+        "F": "Kappa variant unresolved",
+        "G": "https://arxiv.org/html/2506.06251v2 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2506.06251v3 §5.4: judge accuracy distinct from human reliability",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P15-I07"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E45",
+    "study_id": "P15",
+    "original_sheet": "Evidence Queue",
+    "original_row": 49,
+    "original_record": {
+      "row": 49,
+      "cells": {
+        "A": "E45",
+        "B": "P15",
+        "C": "P15-I06",
+        "D": "Criterion evidence",
+        "E": "Human majority",
+        "F": "Ordinal-to-accuracy conversion unresolved",
+        "G": "https://arxiv.org/html/2506.06251v2 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2506.06251v3 §5.4: judge accuracy distinct from human reliability",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P15-I06"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E46",
+    "study_id": "P15",
+    "original_sheet": "Evidence Queue",
+    "original_row": 50,
+    "original_record": {
+      "row": 50,
+      "cells": {
+        "A": "E46",
+        "B": "P15",
+        "C": "P15-I07",
+        "D": "Human-rater consistency",
+        "E": "Other annotators",
+        "F": "Kappa variant unresolved",
+        "G": "https://arxiv.org/html/2506.06251v2 §5.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "arXiv:2506.06251v3 §5.4: judge accuracy distinct from human reliability",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P15-I07"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E47",
+    "study_id": "P17",
+    "original_sheet": "Evidence Queue",
+    "original_row": 51,
+    "original_record": {
+      "row": 51,
+      "cells": {
+        "A": "E47",
+        "B": "P17",
+        "C": "P17-I03",
+        "D": "Calibration evidence",
+        "E": "Visual ratings",
+        "F": "Selected w=.5; confirmation set unresolved",
+        "G": "https://arxiv.org/html/2509.24709v2 Appendix C",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "ICLR 2026 §§4.1–4.2, §5.4, Appendix C p17: interactive external-video task; success-conditioned visual score; human sample used for weight calibration, not demonstrated held-out validation",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S17",
+      "D07"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P17-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E48",
+    "study_id": "P17",
+    "original_sheet": "Evidence Queue",
+    "original_row": 52,
+    "original_record": {
+      "row": 52,
+      "cells": {
+        "A": "E48",
+        "B": "P17",
+        "C": "P17-I05",
+        "D": "Calibration evidence",
+        "E": "Overall ratings",
+        "F": "Selected alpha=.7; shared selection/evaluation",
+        "G": "https://arxiv.org/html/2509.24709v2 Appendix C",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "ICLR 2026 §§4.1–4.2, §5.4, Appendix C p17: interactive external-video task; success-conditioned visual score; human sample used for weight calibration, not demonstrated held-out validation",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S17",
+      "D07"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P17-I05"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E49",
+    "study_id": "P18",
+    "original_sheet": "Evidence Queue",
+    "original_row": 53,
+    "original_record": {
+      "row": 53,
+      "cells": {
+        "A": "E49",
+        "B": "P18",
+        "C": "P18-I01",
+        "D": "Graphical association; provenance caveat",
+        "E": "Pairwise preference",
+        "F": "No numeric coefficient visible; caption says synthetic preference data; retain provenance ambiguity.",
+        "G": "https://arxiv.org/pdf/2602.18548v1 §3.3, Fig.3A, Appendix B",
+        "H": "Partial — batch 2 source check",
+        "I": "50 perturbed instances; 20 annotators; allocation unresolved; No new numerical association estimate extracted; Perturbation setting; caption/provenance question; no held-out fitting claim assumed | https://arxiv.org/pdf/2602.18548v1"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "H05 perturbation interpretation only; v1/v3 discrepancy retained",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P18-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E50",
+    "study_id": "P14",
+    "original_sheet": "Evidence Queue",
+    "original_row": 54,
+    "original_record": {
+      "row": 54,
+      "cells": {
+        "A": "E50",
+        "B": "P14",
+        "C": "P14-I04",
+        "D": "Human-rater consistency",
+        "E": "Other developers",
+        "F": "Three-rater aggregation unspecified",
+        "G": "https://arxiv.org/html/2510.04097v1 Appendix E, Table 6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P14-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E51",
+    "study_id": "P14",
+    "original_sheet": "Evidence Queue",
+    "original_row": 55,
+    "original_record": {
+      "row": 55,
+      "cells": {
+        "A": "E51",
+        "B": "P14",
+        "C": "P14-I04",
+        "D": "Human-rater consistency",
+        "E": "Other developers",
+        "F": "Three-rater aggregation unspecified",
+        "G": "https://arxiv.org/html/2510.04097v1 Appendix E, Table 6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P14-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E52",
+    "study_id": "P14",
+    "original_sheet": "Evidence Queue",
+    "original_row": 56,
+    "original_record": {
+      "row": 56,
+      "cells": {
+        "A": "E52",
+        "B": "P14",
+        "C": "P14-I04",
+        "D": "Human-rater consistency",
+        "E": "Other developers",
+        "F": "Three-rater aggregation unspecified",
+        "G": "https://arxiv.org/html/2510.04097v1 Appendix E, Table 6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P14-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E53",
+    "study_id": "P14",
+    "original_sheet": "Evidence Queue",
+    "original_row": 57,
+    "original_record": {
+      "row": 57,
+      "cells": {
+        "A": "E53",
+        "B": "P14",
+        "C": "P14-I04",
+        "D": "Human-rater consistency",
+        "E": "Other developers",
+        "F": "Three-rater aggregation unspecified",
+        "G": "https://arxiv.org/html/2510.04097v1 Appendix E, Table 6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P14-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E54",
+    "study_id": "P14",
+    "original_sheet": "Evidence Queue",
+    "original_row": 58,
+    "original_record": {
+      "row": 58,
+      "cells": {
+        "A": "E54",
+        "B": "P14",
+        "C": "P14-I04",
+        "D": "Human-rater consistency",
+        "E": "Other developers",
+        "F": "Three-rater aggregation unspecified",
+        "G": "https://arxiv.org/html/2510.04097v1 Appendix E, Table 6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P14-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E55",
+    "study_id": "P14",
+    "original_sheet": "Evidence Queue",
+    "original_row": 59,
+    "original_record": {
+      "row": 59,
+      "cells": {
+        "A": "E55",
+        "B": "P14",
+        "C": "P14-I04",
+        "D": "Human-rater consistency",
+        "E": "Other developers",
+        "F": "Three-rater aggregation unspecified",
+        "G": "https://arxiv.org/html/2510.04097v1 Appendix E, Table 6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P14-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E56",
+    "study_id": "P51",
+    "original_sheet": "Evidence Queue",
+    "original_row": 60,
+    "original_record": {
+      "row": 60,
+      "cells": {
+        "A": "E56",
+        "B": "P51",
+        "C": "P51-I01",
+        "D": "Criterion evidence",
+        "E": "Human judgments",
+        "F": "Task N and independent confirmation unresolved",
+        "G": "https://arxiv.org/html/2604.18224v1 §4.3.1, Table 4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P51-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E57",
+    "study_id": "P51",
+    "original_sheet": "Evidence Queue",
+    "original_row": 61,
+    "original_record": {
+      "row": 61,
+      "cells": {
+        "A": "E57",
+        "B": "P51",
+        "C": "P51-I02",
+        "D": "Criterion evidence",
+        "E": "Human judgments",
+        "F": "Task N and independent confirmation unresolved",
+        "G": "https://arxiv.org/html/2604.18224v1 §4.3.1, Table 4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P51-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E58",
+    "study_id": "P51",
+    "original_sheet": "Evidence Queue",
+    "original_row": 62,
+    "original_record": {
+      "row": 62,
+      "cells": {
+        "A": "E58",
+        "B": "P51",
+        "C": "P51-I03",
+        "D": "Criterion evidence",
+        "E": "Human judgments",
+        "F": "Task N and independent confirmation unresolved",
+        "G": "https://arxiv.org/html/2604.18224v1 §4.3.1, Table 4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P51-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E59",
+    "study_id": "P48",
+    "original_sheet": "Evidence Queue",
+    "original_row": 63,
+    "original_record": {
+      "row": 63,
+      "cells": {
+        "A": "E59",
+        "B": "P48",
+        "C": "P48-I01",
+        "D": "Criterion evidence",
+        "E": "Human verdicts",
+        "F": "Case count differs from judgment count",
+        "G": "https://arxiv.org/html/2601.04203v1 §3.2, Table 3",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P48-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E60",
+    "study_id": "P48",
+    "original_sheet": "Evidence Queue",
+    "original_row": 64,
+    "original_record": {
+      "row": 64,
+      "cells": {
+        "A": "E60",
+        "B": "P48",
+        "C": "P48-I01",
+        "D": "Criterion evidence",
+        "E": "Human verdicts",
+        "F": "Rater count unresolved",
+        "G": "https://arxiv.org/html/2601.04203v1 §3.2, Table 3",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P48-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E61",
+    "study_id": "P48",
+    "original_sheet": "Evidence Queue",
+    "original_row": 65,
+    "original_record": {
+      "row": 65,
+      "cells": {
+        "A": "E61",
+        "B": "P48",
+        "C": "P48-I02",
+        "D": "Criterion evidence",
+        "E": "Human preference",
+        "F": "Not representative-user task performance",
+        "G": "https://arxiv.org/html/2601.04203v1 §3.2, Table 3",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P48-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E62",
+    "study_id": "P48",
+    "original_sheet": "Evidence Queue",
+    "original_row": 66,
+    "original_record": {
+      "row": 66,
+      "cells": {
+        "A": "E62",
+        "B": "P48",
+        "C": "P48-I02",
+        "D": "Criterion evidence",
+        "E": "Human preference",
+        "F": "Not a user trial",
+        "G": "https://arxiv.org/html/2601.04203v1 §3.2, Table 3",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P48-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E63",
+    "study_id": "P55",
+    "original_sheet": "Evidence Queue",
+    "original_row": 67,
+    "original_record": {
+      "row": 67,
+      "cells": {
+        "A": "E63",
+        "B": "P55",
+        "C": "P55-I03",
+        "D": "Criterion evidence",
+        "E": "Human majority",
+        "F": "Project count is not verdict count",
+        "G": "https://arxiv.org/pdf/2608.03689v1 Experiments, Tables 2/4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P55-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E64",
+    "study_id": "P55",
+    "original_sheet": "Evidence Queue",
+    "original_row": 68,
+    "original_record": {
+      "row": 68,
+      "cells": {
+        "A": "E64",
+        "B": "P55",
+        "C": "P55-I03",
+        "D": "Criterion evidence",
+        "E": "Human majority",
+        "F": "Mixed text-led domains",
+        "G": "https://arxiv.org/pdf/2608.03689v1 Experiments, Tables 2/4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P55-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E65",
+    "study_id": "P55",
+    "original_sheet": "Evidence Queue",
+    "original_row": 69,
+    "original_record": {
+      "row": 69,
+      "cells": {
+        "A": "E65",
+        "B": "P55",
+        "C": "P55-I03",
+        "D": "Cross-model consistency",
+        "E": "Other evaluator",
+        "F": "Agreement does not establish correctness",
+        "G": "https://arxiv.org/pdf/2608.03689v1 Experiments, Tables 2/4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P55-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E66",
+    "study_id": "P55",
+    "original_sheet": "Evidence Queue",
+    "original_row": 70,
+    "original_record": {
+      "row": 70,
+      "cells": {
+        "A": "E66",
+        "B": "P55",
+        "C": "P55-I03",
+        "D": "Cross-model consistency",
+        "E": "Other evaluator",
+        "F": "Not a human criterion",
+        "G": "https://arxiv.org/pdf/2608.03689v1 Experiments, Tables 2/4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P55-I03"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E67",
+    "study_id": "P44",
+    "original_sheet": "Evidence Queue",
+    "original_row": 71,
+    "original_record": {
+      "row": 71,
+      "cells": {
+        "A": "E67",
+        "B": "P44",
+        "C": "P44-I01",
+        "D": "Criterion evidence",
+        "E": "Rule-based oracle",
+        "F": "All-fail accuracy=.720; N unresolved",
+        "G": "https://arxiv.org/html/2511.15567v1 Table 6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P44-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E68",
+    "study_id": "P44",
+    "original_sheet": "Evidence Queue",
+    "original_row": 72,
+    "original_record": {
+      "row": 72,
+      "cells": {
+        "A": "E68",
+        "B": "P44",
+        "C": "P44-I01",
+        "D": "Criterion evidence",
+        "E": "Rule-based oracle",
+        "F": "All-fail accuracy=.720; N unresolved",
+        "G": "https://arxiv.org/html/2511.15567v1 Table 6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P44-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E69",
+    "study_id": "P44",
+    "original_sheet": "Evidence Queue",
+    "original_row": 73,
+    "original_record": {
+      "row": 73,
+      "cells": {
+        "A": "E69",
+        "B": "P44",
+        "C": "P44-I01",
+        "D": "Criterion evidence",
+        "E": "Rule-based oracle",
+        "F": "All-fail accuracy=.720; N unresolved",
+        "G": "https://arxiv.org/html/2511.15567v1 Table 6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P44-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E70",
+    "study_id": "P44",
+    "original_sheet": "Evidence Queue",
+    "original_row": 74,
+    "original_record": {
+      "row": 74,
+      "cells": {
+        "A": "E70",
+        "B": "P44",
+        "C": "P44-I01",
+        "D": "Criterion evidence",
+        "E": "Rule-based oracle",
+        "F": "All-fail accuracy=.720; N unresolved",
+        "G": "https://arxiv.org/html/2511.15567v1 Table 6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P44-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E71",
+    "study_id": "P27",
+    "original_sheet": "Evidence Queue",
+    "original_row": 75,
+    "original_record": {
+      "row": 75,
+      "cells": {
+        "A": "E71",
+        "B": "P27",
+        "C": "P27-I04",
+        "D": "Criterion evidence",
+        "E": "Injected fault labels",
+        "F": "Fault/sample counts unresolved",
+        "G": "https://arxiv.org/html/2510.15306v1 §4.3, Table 2",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P27-I04"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E72",
+    "study_id": "P27",
+    "original_sheet": "Evidence Queue",
+    "original_row": 76,
+    "original_record": {
+      "row": 76,
+      "cells": {
+        "A": "E72",
+        "B": "P27",
+        "C": "P27-I05",
+        "D": "Criterion evidence",
+        "E": "Injected fault labels",
+        "F": "Fault/sample counts unresolved",
+        "G": "https://arxiv.org/html/2510.15306v1 §4.3, Table 2",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P27-I05"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E73",
+    "study_id": "P43",
+    "original_sheet": "Evidence Queue",
+    "original_row": 77,
+    "original_record": {
+      "row": 77,
+      "cells": {
+        "A": "E73",
+        "B": "P43",
+        "C": "P43-I02",
+        "D": "Criterion evidence",
+        "E": "Human transition labels",
+        "F": "Separate from 50-page generation benchmark",
+        "G": "https://arxiv.org/html/2511.06251v1 §5.2, Table 2, Appendix A.4",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P43-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E74",
+    "study_id": "P39",
+    "original_sheet": "Evidence Queue",
+    "original_row": 78,
+    "original_record": {
+      "row": 78,
+      "cells": {
+        "A": "E74",
+        "B": "P39",
+        "C": "P39-I01",
+        "D": "Criterion evidence",
+        "E": "Expert judgment",
+        "F": "Post-refinement confirmation unresolved",
+        "G": "https://arxiv.org/html/2506.13832v1 §§3.2,5.1–5.2, Table 3",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P39-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E75",
+    "study_id": "P39",
+    "original_sheet": "Evidence Queue",
+    "original_row": 79,
+    "original_record": {
+      "row": 79,
+      "cells": {
+        "A": "E75",
+        "B": "P39",
+        "C": "P39-I01",
+        "D": "Criterion evidence",
+        "E": "Expert judgment",
+        "F": "Post-refinement confirmation unresolved",
+        "G": "https://arxiv.org/html/2506.13832v1 §§3.2,5.1–5.2, Table 3",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P39-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E76",
+    "study_id": "P39",
+    "original_sheet": "Evidence Queue",
+    "original_row": 80,
+    "original_record": {
+      "row": 80,
+      "cells": {
+        "A": "E76",
+        "B": "P39",
+        "C": "P39-I01",
+        "D": "Criterion evidence",
+        "E": "Expert judgment",
+        "F": "Post-refinement confirmation unresolved",
+        "G": "https://arxiv.org/html/2506.13832v1 §§3.2,5.1–5.2, Table 3",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P39-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E77",
+    "study_id": "P39",
+    "original_sheet": "Evidence Queue",
+    "original_row": 81,
+    "original_record": {
+      "row": 81,
+      "cells": {
+        "A": "E77",
+        "B": "P39",
+        "C": "P39-I01",
+        "D": "Criterion evidence",
+        "E": "Expert judgment",
+        "F": "Post-refinement confirmation unresolved",
+        "G": "https://arxiv.org/html/2506.13832v1 §§3.2,5.1–5.2, Table 3",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P39-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E78",
+    "study_id": "P52",
+    "original_sheet": "Evidence Queue",
+    "original_row": 82,
+    "original_record": {
+      "row": 82,
+      "cells": {
+        "A": "E78",
+        "B": "P52",
+        "C": "P52-I01",
+        "D": "Criterion evidence",
+        "E": "Expert 1 judgment",
+        "F": "Agreement estimator unnamed",
+        "G": "https://arxiv.org/html/2606.00154v1 §4, Appendix A.1/B.5/B.6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§3.1; Appendices A1, B5–B7; Table 8, PDF pp12–18: State images and optional actions define generation. Table 8 valid-evaluation counts vary from 92 to 103 across configurations. Match scoring is conditional on matched steps; Full scoring carries the last available screenshot forward. Zero-match/no-screenshot handling remains unresolved. Main-text matcher validation and appendix sequence-extraction annotation describe different units and must not be conflated. Cross-LLM matching agreement is stability evidence, not another human criterion.",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S52"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P52-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E79",
+    "study_id": "P52",
+    "original_sheet": "Evidence Queue",
+    "original_row": 83,
+    "original_record": {
+      "row": 83,
+      "cells": {
+        "A": "E79",
+        "B": "P52",
+        "C": "P52-I01",
+        "D": "Criterion evidence",
+        "E": "Expert 2 judgment",
+        "F": "Not independent replication",
+        "G": "https://arxiv.org/html/2606.00154v1 §4, Appendix A.1/B.5/B.6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§3.1; Appendices A1, B5–B7; Table 8, PDF pp12–18: State images and optional actions define generation. Table 8 valid-evaluation counts vary from 92 to 103 across configurations. Match scoring is conditional on matched steps; Full scoring carries the last available screenshot forward. Zero-match/no-screenshot handling remains unresolved. Main-text matcher validation and appendix sequence-extraction annotation describe different units and must not be conflated. Cross-LLM matching agreement is stability evidence, not another human criterion.",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S52"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P52-I01"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E80",
+    "study_id": "P52",
+    "original_sheet": "Evidence Queue",
+    "original_row": 84,
+    "original_record": {
+      "row": 84,
+      "cells": {
+        "A": "E80",
+        "B": "P52",
+        "C": "P52-I02",
+        "D": "Cross-model consistency",
+        "E": "Other matching LLMs",
+        "F": "Step count unresolved; no human oracle",
+        "G": "https://arxiv.org/html/2606.00154v1 §4, Appendix A.1/B.5/B.6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§3.1; Appendices A1, B5–B7; Table 8, PDF pp12–18: State images and optional actions define generation. Table 8 valid-evaluation counts vary from 92 to 103 across configurations. Match scoring is conditional on matched steps; Full scoring carries the last available screenshot forward. Zero-match/no-screenshot handling remains unresolved. Main-text matcher validation and appendix sequence-extraction annotation describe different units and must not be conflated. Cross-LLM matching agreement is stability evidence, not another human criterion.",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "S52"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P52-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E81",
+    "study_id": "P16",
+    "original_sheet": "Evidence Queue",
+    "original_row": 85,
+    "original_record": {
+      "row": 85,
+      "cells": {
+        "A": "E81",
+        "B": "P16",
+        "C": "P16-I02",
+        "D": "Graphical criterion comparison",
+        "E": "Mean Opinion Score",
+        "F": "Not engineering-proxy validation; protocol incomplete",
+        "G": "https://arxiv.org/html/2604.13648v1 Appendix H, Figures 22–23",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§2, 4.1; appendix evaluation: Figma JSON, assets and design images constrain generation; the inspected evaluation uses Tailwind HTML. Relative CSS units and absolute/fixed positioning are responsiveness proxies. Semantic-tag and arbitrary-value proportions are code proxies, not measured maintenance effort, viewport adaptation or accessibility conformance.",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P16-I02"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E82",
+    "study_id": "P22",
+    "original_sheet": "Evidence Queue",
+    "original_row": 86,
+    "original_record": {
+      "row": 86,
+      "cells": {
+        "A": "E82",
+        "B": "P22",
+        "C": "P22-I05",
+        "D": "Human-rater consistency",
+        "E": "Other annotators",
+        "F": "Not validity of reuse/repetition measures",
+        "G": "https://arxiv.org/html/2602.19276v1 §6.1, Appendices A.5–A.6",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "§§2.1, 5.1, 6.1; Appendices A5.3, A6: External mockups constrain multi-page generation. Reuse and repetition scores are structural proxies. The main text describes a one-third human-study sample while the appendix describes 100 pages; these accounts are not reconciled. Annotator reliability and agreement in method preference do not establish item-level validity of each automatic metric. Reuse wording and its appendix formula also require caution.",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P22-I05"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Retain only the named criterion and limits in the current study scope; no independent validation count inferred."
+  },
+  {
+    "record_id": "E83",
+    "study_id": "P61",
+    "original_sheet": "Evidence Queue",
+    "original_row": 87,
+    "original_record": {
+      "row": 87,
+      "cells": {
+        "A": "E83",
+        "B": "P61",
+        "C": "P61-I19",
+        "D": "Proxy criterion evidence",
+        "E": "Extended fidelity ≥.80; valid artifact",
+        "F": "Not independent quality validation",
+        "G": "https://jklst.org/index.php/home/en/article/download/v5.n2.005/337/1306 §3 Table 9",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P61-I19"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E84",
+    "study_id": "P61",
+    "original_sheet": "Evidence Queue",
+    "original_row": 88,
+    "original_record": {
+      "row": 88,
+      "cells": {
+        "A": "E84",
+        "B": "P61",
+        "C": "P61-I20",
+        "D": "Proxy criterion evidence",
+        "E": "Same proxy criterion as E83",
+        "F": "Dependent evidence; no human criterion",
+        "G": "https://jklst.org/index.php/home/en/article/download/v5.n2.005/337/1306 Table 9",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P61-I20"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E85",
+    "study_id": "P61",
+    "original_sheet": "Evidence Queue",
+    "original_row": 89,
+    "original_record": {
+      "row": 89,
+      "cells": {
+        "A": "E85",
+        "B": "P61",
+        "C": "P61-I21",
+        "D": "Proxy criterion evidence",
+        "E": "Same proxy criterion as E83",
+        "F": "Dependent evidence",
+        "G": "https://jklst.org/index.php/home/en/article/download/v5.n2.005/337/1306 Table 9",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P61-I21"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  },
+  {
+    "record_id": "E86",
+    "study_id": "P61",
+    "original_sheet": "Evidence Queue",
+    "original_row": 90,
+    "original_record": {
+      "row": 90,
+      "cells": {
+        "A": "E86",
+        "B": "P61",
+        "C": "P61-I22",
+        "D": "Proxy criterion evidence",
+        "E": "Risk=1−accepted mean extended fidelity",
+        "F": "Not binary-error AURC or observed clarification benefit",
+        "G": "https://jklst.org/index.php/home/en/article/download/v5.n2.005/337/1306 §3 Table 9",
+        "H": "Open"
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership",
+    "instrument_links": [
+      "P61-I22"
+    ],
+    "unresolved_instrument_links": [],
+    "cross_study_links": [],
+    "interpretation_override": "Preserved outside cited universe; no inference of exclusion or absent validation."
+  }
+]

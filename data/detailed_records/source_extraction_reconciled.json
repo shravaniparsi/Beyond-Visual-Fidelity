@@ -1,0 +1,1666 @@
+[
+  {
+    "record_id": "P10-I01",
+    "study_id": "P10",
+    "original_sheet": "Source Extraction",
+    "original_row": 5,
+    "original_record": {
+      "row": 5,
+      "cells": {
+        "A": "P10-I01",
+        "B": "P10",
+        "C": "Existing instrument",
+        "D": "CLIP Score",
+        "E": "Compare the generated rendered webpage/design image with its corresponding reference in embedding space.",
+        "F": "Image pair; task-specific aggregate. Code tasks: full 200 image / 50 text / 100 interaction / 50 refinement; mini 20 / 10 / 20 / 10.",
+        "G": "Side-by-side automatic and human outcome tables are reported. A matched-item validity statistic for this specific metric was not located in the inspected report.",
+        "H": "Image resemblance is a bounded outcome; do not infer interaction correctness. Exact CLIP checkpoint, detailed preprocessing and full denominator/error policy are not reported in the inspected paper.",
+        "I": "Reported",
+        "J": "§3.2 p.5; Tables 1/3 pp.5–6; Appendix A p.12",
+        "K": "https://arxiv.org/pdf/2505.17399v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P10 rows: v2 visual/code scores and bounded interaction outcomes; task subsets kept separate",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P10-I02",
+    "study_id": "P10",
+    "original_sheet": "Source Extraction",
+    "original_row": 6,
+    "original_record": {
+      "row": 6,
+      "cells": {
+        "A": "P10-I02",
+        "B": "P10",
+        "C": "Existing instrument",
+        "D": "Gemini Visual Score",
+        "E": "Gemini 2.5 Flash compares two images and returns ten scores, each 0–10, in a bracketed comma-separated list. Detailed anchors in Appendix C.1.",
+        "F": "Image pair × rubric dimension; task/condition aggregates, not ten independent validation samples.",
+        "G": "Blind human evaluation using the same criteria is reported for FullFront-mini. No reported item-level human–judge coefficient, judge repeatability estimate or separate tuning/confirmation split was located.",
+        "H": "Shared criteria and corresponding outcome tables do not themselves establish separate validity of each dimension. Aggregate weighting and judge decoding/run settings are not fully specified in this paper.",
+        "I": "Reported",
+        "J": "§3.2 p.5; Table 4 p.7; Appendix C.1 pp.14–16",
+        "K": "https://arxiv.org/pdf/2505.17399v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P10 rows: v2 visual/code scores and bounded interaction outcomes; task subsets kept separate",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P10-I03",
+    "study_id": "P10",
+    "original_sheet": "Source Extraction",
+    "original_row": 7,
+    "original_record": {
+      "row": 7,
+      "cells": {
+        "A": "P10-I03",
+        "B": "P10",
+        "C": "Existing instrument",
+        "D": "Code Score",
+        "E": "Thresholded tag-sequence LCS/reference length plus text-content, text-style, image and form similarities; the four content terms are multiplied by reference-element implementation rates, then combined with symbolic weights.",
+        "F": "Generated/reference HTML pair; nested matched elements; composites/components share the same artifacts.",
+        "G": "Operational formulas are reported. No separate direct criterion-validation study of Code Score was located in this report.",
+        "H": "Static reference correspondence, not verified semantic equivalence or backend behavior. The printed global weights are symbolic; earlier moving-main code weights are separate observations, not proven historical-run settings.",
+        "I": "Reported",
+        "J": "§3.2 p.5; Appendix C.2 pp.16–18, Eqs.1–7; Table 7 p.9",
+        "K": "https://arxiv.org/pdf/2505.17399v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P10 rows: v2 visual/code scores and bounded interaction outcomes; task subsets kept separate",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P10-PV01",
+    "study_id": "P10",
+    "original_sheet": "Source Extraction",
+    "original_row": 8,
+    "original_record": {
+      "row": 8,
+      "cells": {
+        "A": "P10-PV01",
+        "B": "P10",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Human Score / Human Evaluation",
+        "E": "Table 1 reports human scores for design-image generation; Table 4 reports blind FullFront-mini code-output ratings using the Gemini visual criteria. Keep these tasks separate.",
+        "F": "Table 4 presents 11 model conditions × 4 task columns. Mini task counts 20/10/20/10; rating allocation and participant count for this table not reported in inspected paper.",
+        "G": "Positive reported human outcomes; no rater-agreement coefficient or matching metric–human analysis located for these tables.",
+        "H": "Do not borrow the three experts from the separate §5.3 study or treat displayed aggregates as independent participant ratings. Design-image outcomes are not core web-code generation.",
+        "I": "Reported",
+        "J": "Tables 1/4 pp.5/7; §4.2 p.7; Appendix A p.12",
+        "K": "https://arxiv.org/pdf/2505.17399v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P10 rows: v2 visual/code scores and bounded interaction outcomes; task subsets kept separate",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P10-PV02",
+    "study_id": "P10",
+    "original_sheet": "Source Extraction",
+    "original_row": 9,
+    "original_record": {
+      "row": 9,
+      "cells": {
+        "A": "P10-PV02",
+        "B": "P10",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Interaction rate",
+        "E": "Reported rate table; Appendix B.2 specifies before/after screenshot inputs, #InteractionPart target identification and ten click/hover behaviors, including state/selector requirements.",
+        "F": "Full interaction task 100 instances; mini 20, two per interaction type. Table 5 separates full and mini.",
+        "G": "Positive reported interaction-specific outcomes. Exact scoring code, all failure cases and event-to-success assertion sequence are not fully specified by the paper alone.",
+        "H": "Do not reduce to mere visual appearance, but do not infer fully tested end-to-end behavior. Close exact scoring-predicate questions through static evaluator inspection if central to synthesis.",
+        "I": "Unclear",
+        "J": "Table 5 p.7; Appendix B.2 pp.12–14",
+        "K": "https://arxiv.org/pdf/2505.17399v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P10 rows: v2 visual/code scores and bounded interaction outcomes; task subsets kept separate",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P10-PV03",
+    "study_id": "P10",
+    "original_sheet": "Source Extraction",
+    "original_row": 10,
+    "original_record": {
+      "row": 10,
+      "cells": {
+        "A": "P10-PV03",
+        "B": "P10",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Accuracy (Webpage Perception QA)",
+        "E": "Fraction of correctly answered multiple-choice questions.",
+        "F": "Full: 1,250 real-world, 400 synthetic and 150 multi-window QA; mini 200/100/50. QA items are not generated webpages.",
+        "G": "Human-expert comparison is reported for mini; this concerns QA ability.",
+        "H": "Contextual understanding evaluation, outside the core generated-web-artifact outcomes. Reused source screenshots and multi-window groupings are dependent.",
+        "I": "Reported",
+        "J": "§§3.1–3.2 pp.4–5; Table 2 p.6; Appendix A p.12",
+        "K": "https://arxiv.org/pdf/2505.17399v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P10 rows: v2 visual/code scores and bounded interaction outcomes; task subsets kept separate",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P10-PV04",
+    "study_id": "P10",
+    "original_sheet": "Source Extraction",
+    "original_row": 11,
+    "original_record": {
+      "row": 11,
+      "cells": {
+        "A": "P10-PV04",
+        "B": "P10",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Human comparison: Win / Tie / Lose",
+        "E": "Three experts blindly compare generated and real-world webpages; Figure 6 reports win/tie/lose proportions.",
+        "F": "§5.3 says 100 webpages and three experts; exact per-model allocation/aggregation is not established by that wording.",
+        "G": "Reported method/output preference; not an individually calibrated automatic-metric result.",
+        "H": "Keep separate from Table 4 human rating protocol; do not infer all comparisons, participant independence or practical productivity.",
+        "I": "Unclear",
+        "J": "§5.3 pp.8–9; Figure 6 p.9",
+        "K": "https://arxiv.org/pdf/2505.17399v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P10 rows: v2 visual/code scores and bounded interaction outcomes; task subsets kept separate",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P10-PV05",
+    "study_id": "P10",
+    "original_sheet": "Source Extraction",
+    "original_row": 12,
+    "original_record": {
+      "row": 12,
+      "cells": {
+        "A": "P10-PV05",
+        "B": "P10",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Abnormal Image Size / Blank Image / Isolation Error",
+        "E": "Counts of three error categories by model and applicable task, with qualitative examples.",
+        "F": "Same generated artifact pool as benchmark outcomes; full and mini rows coexist in Table 6. Overlap and coding allocation not reported.",
+        "G": "Descriptive failure characterization, not repeated measurement stability.",
+        "H": "Do not sum mixed full/mini counts or assume categories are mutually exclusive. Errors in one artifact are not independent pages.",
+        "I": "Reported",
+        "J": "§5.3 pp.8–9; Figure 5 p.8; Table 6 p.9",
+        "K": "https://arxiv.org/pdf/2505.17399v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P10 rows: v2 visual/code scores and bounded interaction outcomes; task subsets kept separate",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P65-I01",
+    "study_id": "P65",
+    "original_sheet": "Source Extraction",
+    "original_row": 13,
+    "original_record": {
+      "row": 13,
+      "cells": {
+        "A": "P65-I01",
+        "B": "P65",
+        "C": "Existing instrument",
+        "D": "WAVE / axe detected errors",
+        "E": "Tool-based examination followed by iterative remediation; Table 2 lists 13 issue rows and their outcomes. Figure 6 visibly labels axe-core 4.10.2 and WCAG 2.1 AA.",
+        "F": "One TV-series webpage; issue-row groups are not the same unit as individual tool findings (Figure 6 shows 48 total issues, including best-practice findings).",
+        "G": "Direct tool-based issue detection and rechecking reported; not validation of every applicable accessibility requirement.",
+        "H": "Keep author target WCAG 2.2 AA, Figure 6 configuration WCAG 2.1 AA, and reference [25] WCAG 3.0 separately. This provenance mismatch leaves exact criterion coverage unclear, not proof all testing was wrong.",
+        "I": "Reported",
+        "J": "§§2.2–2.3 pp.2–4; Table 2 p.6; Figure 6 p.12; reference [25] p.10",
+        "K": "https://arxiv.org/pdf/2501.03572v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P65 rows: bounded accessibility-repair outcomes, not universal conformance",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P65-I02",
+    "study_id": "P65",
+    "original_sheet": "Source Extraction",
+    "original_row": 14,
+    "original_record": {
+      "row": 14,
+      "cells": {
+        "A": "P65-I02",
+        "B": "P65",
+        "C": "Existing instrument",
+        "D": "Manual testing / qualitative errors",
+        "E": "Authors perform keyboard navigation, screen-reader-extension and visual checks; Table 4 supplies example requests and human adjustments/actions.",
+        "F": "One page; 22 issue rows in Table 3. Number of independent raters, assignment and agreement statistic not reported.",
+        "G": "Direct human action checks are reported for dropdowns, modals, carousel and other components. No independent user-with-disability study is established.",
+        "H": "Positive bounded behavioral evidence. Human review/integration is part of reported workflow; §2.3's no-manual-intervention phrase and Table 4 require cautious attribution. Widget-specific criteria need mapping before a comprehensive conformance claim.",
+        "I": "Reported",
+        "J": "§2.2 p.3; §2.3 p.4; §3.3 pp.7–8; Table 4 pp.13–17; Figs.10–11 pp.20–21",
+        "K": "https://arxiv.org/pdf/2501.03572v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P65 rows: bounded accessibility-repair outcomes, not universal conformance",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P65-I03",
+    "study_id": "P65",
+    "original_sheet": "Source Extraction",
+    "original_row": 15,
+    "original_record": {
+      "row": 15,
+      "cells": {
+        "A": "P65-I03",
+        "B": "P65",
+        "C": "Existing instrument",
+        "D": "Contrast Ratios and WCAG Compliance",
+        "E": "Table 1 records contrast ratios, frequencies and author-labelled WCAG 2.2 AA compliance for 12 element groups.",
+        "F": "Element-group entries with frequencies, not 12 independently assessed pages.",
+        "G": "Reported measurements and compliance labels; no fresh pixel sampling or threshold application was performed by this review.",
+        "H": "Preserve the published labels. Text size/weight, exact sampled colors and threshold rationale per group are not fully reported. Do not extrapolate the contrast distribution into complete WCAG coverage.",
+        "I": "Reported",
+        "J": "Table 1 p.5; §3.2 p.5; Figure 4 p.8",
+        "K": "https://arxiv.org/pdf/2501.03572v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P65 rows: bounded accessibility-repair outcomes, not universal conformance",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P65-I04",
+    "study_id": "P65",
+    "original_sheet": "Source Extraction",
+    "original_row": 16,
+    "original_record": {
+      "row": 16,
+      "cells": {
+        "A": "P65-I04",
+        "B": "P65",
+        "C": "Existing instrument",
+        "D": "Iterations (feedback prompts)",
+        "E": "Count prompts per reported issue row; automated table sums to 18; manual table sums to 220, including unresolved attempts.",
+        "F": "Heterogeneous issue rows and affected elements. The 22 alt-text prompts concern 22 images; §3.3 describes one iteration per image.",
+        "G": "Descriptive effort accounting. No elapsed-time study or independent benchmark of homogeneous tasks is reported.",
+        "H": "Do not interpret all iterations as successful time-to-resolution or the 22 image prompts as 22 failures on one image. Table 4 shows integration/checking work not measured by prompt count alone.",
+        "I": "Reported",
+        "J": "§2.2 p.3; Tables 2–3 p.6; §3.3 pp.7–8; Table 4 pp.13–17",
+        "K": "https://arxiv.org/pdf/2501.03572v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P65 rows: bounded accessibility-repair outcomes, not universal conformance",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P65-I05",
+    "study_id": "P65",
+    "original_sheet": "Source Extraction",
+    "original_row": 17,
+    "original_record": {
+      "row": 17,
+      "cells": {
+        "A": "P65-I05",
+        "B": "P65",
+        "C": "Existing instrument",
+        "D": "Weighted Average Iterations (WAI)",
+        "E": "Sum(x_i*w_i)/sum(w_i); examples use weight 2 above 10 prompts, else 1. Tables report automated 1.4 and manual 13.4.",
+        "F": "Issue rows weighted using iteration-based complexity; actual complete weight assignment not established.",
+        "G": "Operational formula reported; earlier conditional arithmetic remains separate from source values.",
+        "H": "Retain 13.4. Illustrative weights give 397/29≈13.6897, not proof the source used that rule. Weights are a conclusion-critical gap only for claims depending on this exact weighted comparison; unweighted counts remain usable.",
+        "I": "Unclear",
+        "J": "§2.2 p.3; Tables 2–3 p.6",
+        "K": "https://arxiv.org/pdf/2501.03572v2",
+        "L": "None inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P65 rows: bounded accessibility-repair outcomes, not universal conformance",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P65-I06",
+    "study_id": "P65",
+    "original_sheet": "Source Extraction",
+    "original_row": 18,
+    "original_record": {
+      "row": 18,
+      "cells": {
+        "A": "P65-I06",
+        "B": "P65",
+        "C": "Existing instrument",
+        "D": "Accuracy (NER/TED × 100)",
+        "E": "Resolved-error count divided by detected-error count. Tables 2–3 yield 13/13 and 20/22 rows, respectively.",
+        "F": "Detected issue-row groups in one evolving webpage; mixed remediation inputs, not a screenshot-only cohort.",
+        "G": "Reported tool/manual follow-up; H06 already approves the bounded resolution-rate interpretation, not the whole paper.",
+        "H": "Do not interpret 90.91% as WCAG conformance, population success or screenshot-assisted effectiveness. Input-specific denominators and a controlled screenshot-vs-text comparison are not reported.",
+        "I": "Reported",
+        "J": "Equation (1) p.3; §2.3 p.4; Tables 2–3 p.6; §4 pp.8–9",
+        "K": "https://arxiv.org/pdf/2501.03572v2",
+        "L": "H06 interpretation only; unchanged; no new approval inferred"
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction P65 rows: bounded accessibility-repair outcomes, not universal conformance",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P02-I01",
+    "study_id": "P02",
+    "original_sheet": "Source Extraction",
+    "original_row": 19,
+    "original_record": {
+      "row": 19,
+      "cells": {
+        "A": "P02-I01",
+        "B": "P02",
+        "C": "Existing instrument",
+        "D": "Webpage Code Generation Benchmark (WCGB)",
+        "E": "Generated HTML is rendered with Selenium. GPT-4 Vision compares reference and generated images through ten 0–10 criteria grouped as VSA(4), CAD(2), TCC(3), UII(1). The UII question asks about design language/appearance.",
+        "F": "1,198 reference screenshots; generated/reference image pairs × criterion; repeated model/configuration conditions.",
+        "G": "Rubric, category results and qualitative examples. No matched human–judge validation or repeated-judge reliability study located in this report.",
+        "H": "Preserve image-comparison interpretation. UI terminology does not establish executed behavior. Four equal category weights and skip policy were earlier code observations, not reverified paper-run facts.",
+        "I": "Reported",
+        "J": "§§3.2/4.1 pp.6–7; Table 3 p.8; Figure 6 p.6; Appendix G.3 / Figure 15 p.21",
+        "K": "https://arxiv.org/pdf/2406.20098v2",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P02-I02",
+    "study_id": "P02",
+    "original_sheet": "Source Extraction",
+    "original_row": 20,
+    "original_record": {
+      "row": 20,
+      "cells": {
+        "A": "P02-I02",
+        "B": "P02",
+        "C": "Existing instrument",
+        "D": "CLIP",
+        "E": "Additional generated/reference screenshot comparison with CLIP, reported alongside low-level Design2Code measures.",
+        "F": "Shared generated page outputs in appendix Tables 8/10/12; exact row-wise valid denominator not specified.",
+        "G": "Automatic outcome comparisons, not a new human criterion study.",
+        "H": "Do not confuse generation-evaluation CLIP with the CLIP ViT-L/14 visual encoder used inside the trained model; exact evaluation checkpoint is not established in this report.",
+        "I": "Reported",
+        "J": "Appendix D–E pp.16–18, Tables 8/10/12; contrast model description §5 p.9",
+        "K": "https://arxiv.org/pdf/2406.20098v2",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P02-I03",
+    "study_id": "P02",
+    "original_sheet": "Source Extraction",
+    "original_row": 21,
+    "original_record": {
+      "row": 21,
+      "cells": {
+        "A": "P02-I03",
+        "B": "P02",
+        "C": "Existing instrument",
+        "D": "Block-Match / Text / Position / Color",
+        "E": "Reuses low-level element matching metrics attributed to Design2Code, reported individually rather than only the GPT-4V composite.",
+        "F": "Same output sets as the associated CLIP and WCGB comparisons; components are dependent.",
+        "G": "Reported additional operational families and results. Full reused implementation revision is not pinned in the report.",
+        "H": "Definitions inherited from a citation are not proof of equivalence to every Design2Code implementation. Metric-family and version provenance remain explicit.",
+        "I": "Reported",
+        "J": "Appendix D–E pp.16–18, Tables 8/10/12",
+        "K": "https://arxiv.org/pdf/2406.20098v2",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P02-I04",
+    "study_id": "P02",
+    "original_sheet": "Source Extraction",
+    "original_row": 22,
+    "original_record": {
+      "row": 22,
+      "cells": {
+        "A": "P02-I04",
+        "B": "P02",
+        "C": "Existing instrument",
+        "D": "Webpage Understanding Benchmark (WUB) accuracy",
+        "E": "Compare predicted yes/no answers with GPT-4 Vision-generated answer labels.",
+        "F": "5,990 QA pairs from the same 1,198 screenshots used in WCGB; five questions per image.",
+        "G": "Reported visual understanding accuracy; labels are generated by GPT-4V. This does not directly validate generated HTML.",
+        "H": "Keep WUB outside core generated-artifact outcomes. Shared images do not make QA outcomes independent of WCGB's source sampling.",
+        "I": "Reported",
+        "J": "§§3.2/4.1 pp.6–7; Table 4 p.8; Appendix G.4 / Figure 16 p.22",
+        "K": "https://arxiv.org/pdf/2406.20098v2",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC-P02-01",
+    "study_id": "P02",
+    "original_sheet": "Source Extraction",
+    "original_row": 23,
+    "original_record": {
+      "row": 23,
+      "cells": {
+        "A": "SC-P02-01",
+        "B": "P02",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Human privacy-sensitive information check",
+        "E": "Human inspection of 1,000 sampled dataset records; authors report 2.7% with sensitive information, listing 16 email addresses and 11 phone numbers.",
+        "F": "Dataset records and reported flagged contacts, not paired ratings of generated/reference webpages.",
+        "G": "Positive reported human dataset-content audit.",
+        "H": "Not evidence of WCGB–human alignment or a generated-code security test. Reported contact counts are retained without auditing whether they identify real individuals.",
+        "I": "Reported",
+        "J": "Appendix C p.16",
+        "K": "https://arxiv.org/pdf/2406.20098v2",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "outside_cited_35_not_an_eligibility_exclusion",
+    "permitted_study_scope": null,
+    "publication_view": null,
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P06-I01",
+    "study_id": "P06",
+    "original_sheet": "Source Extraction",
+    "original_row": 24,
+    "original_record": {
+      "row": 24,
+      "cells": {
+        "A": "P06-I01",
+        "B": "P06",
+        "C": "Existing instrument",
+        "D": "BLEU",
+        "E": "Code/reference n-gram precision with brevity penalty and geometric weighted mean. Actual N, weights, tokenizer and smoothing configuration are not specified in the metric description.",
+        "F": "Main 250/250/100 page groups; separate DCGen quality subset 223/30/91.",
+        "G": "Reported code-reference similarity outcomes plus separate human method ratings.",
+        "H": "Code-token overlap is not complete structural or functional correctness. Do not silently fill in BLEU-4. Reported score differences remain on their own scale.",
+        "I": "Reported",
+        "J": "§4.4 pp.12–13; Tables 3/8 pp.14/20",
+        "K": "https://arxiv.org/pdf/2506.10376v1",
+        "L": "H01 remains limited to the previously agreed three-versus-four discrepancy and existence of human evaluation."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 24–29: DOI-bearing report, success-conditioned comparisons; H01 rater-count ambiguity retained",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P06-I02",
+    "study_id": "P06",
+    "original_sheet": "Source Extraction",
+    "original_row": 25,
+    "original_record": {
+      "row": 25,
+      "cells": {
+        "A": "P06-I02",
+        "B": "P06",
+        "C": "Existing instrument",
+        "D": "CLIP score",
+        "E": "Cosine similarity between reference and generated screenshot embeddings, explicitly using ViT-B/32.",
+        "F": "Main 250/250/100 page groups; Table 8 restricts comparisons to DCGen-successful cases.",
+        "G": "Reported visual-similarity outcomes; human preference/ratings reported separately.",
+        "H": "Image–image embedding similarity, not caption CLIPScore or executed behavior. Do not merge main and failure-conditioned means as the same population estimate.",
+        "I": "Reported",
+        "J": "§4.4 p.13; Tables 3/8 pp.14/20",
+        "K": "https://arxiv.org/pdf/2506.10376v1",
+        "L": "H01 remains limited to the previously agreed three-versus-four discrepancy and existence of human evaluation."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 24–29: DOI-bearing report, success-conditioned comparisons; H01 rater-count ambiguity retained",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC-P06-01",
+    "study_id": "P06",
+    "original_sheet": "Source Extraction",
+    "original_row": 26,
+    "original_record": {
+      "row": 26,
+      "cells": {
+        "A": "SC-P06-01",
+        "B": "P06",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Human Layout Accuracy / Visual Fidelity / Content Alignment / Code Usability",
+        "E": "Randomized-order questionnaire compares both methods' images/code on four 1–5 rating dimensions. Code Usability is defined as helpfulness of code to developers.",
+        "F": "120 sampled pages (50/50/20); §4.1 three participants versus §5.4 four; reported 480 sets/1,920 ratings. Two-method rating allocation remains unclear.",
+        "G": "Positive human comparative method outcomes; not a separate validity coefficient for BLEU or CLIP.",
+        "H": "Retain all four dimensions and H01 discrepancy. Do not turn helpfulness ratings into measured developer productivity or normalize ambiguous rating totals.",
+        "I": "Reported",
+        "J": "§4.1 p.10; §5.4/Table 5 pp.16–17",
+        "K": "https://arxiv.org/pdf/2506.10376v1",
+        "L": "H01 remains limited to the previously agreed three-versus-four discrepancy and existence of human evaluation."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 24–29: DOI-bearing report, success-conditioned comparisons; H01 rater-count ambiguity retained",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC-P06-02",
+    "study_id": "P06",
+    "original_sheet": "Source Extraction",
+    "original_row": 27,
+    "original_record": {
+      "row": 27,
+      "cells": {
+        "A": "SC-P06-02",
+        "B": "P06",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Time / Prompt Tokens / Completion Tokens / Total Tokens / Cost (Dollars)",
+        "E": "Table 7 reports generation time, prompt and completion token usage, totals and economic cost for the two methods.",
+        "F": "DCGen comparison uses attempted page sets 250/50/100; aggregation/cost accounting and time unit are not fully specified by the table.",
+        "G": "Descriptive resource outcomes from the authors' runs.",
+        "H": "Keep time, token and cost components distinct. These are not human working-time measurements or current API prices; do not recalculate dollar cost using external tariffs.",
+        "I": "Reported",
+        "J": "§6.3/Table 7 p.19",
+        "K": "https://arxiv.org/pdf/2506.10376v1",
+        "L": "H01 remains limited to the previously agreed three-versus-four discrepancy and existence of human evaluation."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 24–29: DOI-bearing report, success-conditioned comparisons; H01 rater-count ambiguity retained",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC-P06-03",
+    "study_id": "P06",
+    "original_sheet": "Source Extraction",
+    "original_row": 28,
+    "original_record": {
+      "row": 28,
+      "cells": {
+        "A": "SC-P06-03",
+        "B": "P06",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Generation Success Rate",
+        "E": "Table 7 reports rates; Table 8 labels retained successful-case counts. Failures are excluded from the quality comparison.",
+        "F": "Attempted 250/50/100; DCGen retained 223/30/91; LayoutCoder reported 100% across these sets.",
+        "G": "Published accounting reproduces 89.2%, 60%, 91% for DCGen.",
+        "H": "Preserve success as author-defined generation outcome; no complete behavioral predicate established. Quality comparisons condition on the DCGen-successful set, not all attempts.",
+        "I": "Reported",
+        "J": "§6.3 and Tables 7–8 pp.19–20",
+        "K": "https://arxiv.org/pdf/2506.10376v1",
+        "L": "H01 remains limited to the previously agreed three-versus-four discrepancy and existence of human evaluation."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 24–29: DOI-bearing report, success-conditioned comparisons; H01 rater-count ambiguity retained",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC-P06-04",
+    "study_id": "P06",
+    "original_sheet": "Source Extraction",
+    "original_row": 29,
+    "original_record": {
+      "row": 29,
+      "cells": {
+        "A": "SC-P06-04",
+        "B": "P06",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Website complexity features",
+        "E": "DOM depth, tag count, token length (cl100k_base) and image aspect ratio with equal-frequency bins; Table 2 also reports DOM breadth and unique tags.",
+        "F": "Page descriptors, nested in three dataset groups; repeated bins/plots are not new study samples.",
+        "G": "Descriptive dataset characterization and stratified method comparisons.",
+        "H": "Complexity-stratified performance is not repeated-run stability or proof of unseen-data independence. Retain archive-date strategy as the authors' provenance check.",
+        "I": "Reported",
+        "J": "Tables 1–2 pp.11–12; §5.3 pp.15–16; §4.2 p.11",
+        "K": "https://arxiv.org/pdf/2506.10376v1",
+        "L": "H01 remains limited to the previously agreed three-versus-four discrepancy and existence of human evaluation."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 24–29: DOI-bearing report, success-conditioned comparisons; H01 rater-count ambiguity retained",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P08-I01",
+    "study_id": "P08",
+    "original_sheet": "Source Extraction",
+    "original_row": 30,
+    "original_record": {
+      "row": 30,
+      "cells": {
+        "A": "P08-I01",
+        "B": "P08",
+        "C": "Existing instrument",
+        "D": "Full evaluation framework",
+        "E": "Combines coarse visual comparison and fine element/layout evaluation; human experts rank outputs for comparison with framework rankings.",
+        "F": "100 samples, three experts, five model conditions; precise rank-correlation estimator and aggregation unit not established.",
+        "G": "Table 2 reports full-framework correlations 0.83/0.81/0.85 and mean 0.83.",
+        "H": "Positive bounded criterion association. Do not assign a named estimator or treat expert/ablation rows as independent datasets. Exact composite weighting remains unclear.",
+        "I": "Reported",
+        "J": "§§4.1–4.2 pp.4–6, Figure 4/Table 2 p.5",
+        "K": "https://arxiv.org/pdf/2506.07818v1",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P08-I02",
+    "study_id": "P08",
+    "original_sheet": "Source Extraction",
+    "original_row": 31,
+    "original_record": {
+      "row": 31,
+      "cells": {
+        "A": "P08-I02",
+        "B": "P08",
+        "C": "Existing instrument",
+        "D": "Element-level similarity",
+        "E": "Simplify DOM to visual elements, build text-content-based cost matrix, use Hungarian matching, and score text/font/background color on successfully matched elements.",
+        "F": "Matched elements nested in page pairs; failed/unmatched-element denominator treatment not fully reported.",
+        "G": "Used in the full framework; removing element evaluation is compared against expert rankings.",
+        "H": "Do not equate successfully matched-element quality with complete element coverage or a separately validated standalone metric.",
+        "I": "Reported",
+        "J": "§4.1 p.5; Table 2 p.5; Appendix A.5/Table 6 p.16",
+        "K": "https://arxiv.org/pdf/2506.07818v1",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P08-I03",
+    "study_id": "P08",
+    "original_sheet": "Source Extraction",
+    "original_row": 32,
+    "original_record": {
+      "row": 32,
+      "cells": {
+        "A": "P08-I03",
+        "B": "P08",
+        "C": "Existing instrument",
+        "D": "Layout-level similarity",
+        "E": "Remove content/style from screenshots, retain size/position with category-colored blocks, compare encoded layout-image features using cosine similarity.",
+        "F": "Layout image pairs; same human alignment sample and benchmark artifacts as other framework components.",
+        "G": "Full-framework ablation without layout is reported; no separate standalone layout-to-human coefficient established.",
+        "H": "Not DOM sequence LCS or direct geometric overlap despite similar metric names in other studies. Keep representation and reference transformation explicit.",
+        "I": "Reported",
+        "J": "§4.1/Figure 4/Table 2 p.5; Appendix Table 6 p.16",
+        "K": "https://arxiv.org/pdf/2506.07818v1",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P08-I04",
+    "study_id": "P08",
+    "original_sheet": "Source Extraction",
+    "original_row": 33,
+    "original_record": {
+      "row": 33,
+      "cells": {
+        "A": "P08-I04",
+        "B": "P08",
+        "C": "Existing instrument",
+        "D": "CLIP / coarse-grained evaluation",
+        "E": "Compare generated and reference screenshot visual-feature vectors using cosine similarity; CLIP-only ablation in Table 2.",
+        "F": "Same 100-sample human study for ablation; benchmark per-model denominator still unclear.",
+        "G": "Expert correlations 0.76/0.75/0.78, with printed average 0.77.",
+        "H": "Positive criterion evidence under this sample. Equal mean of rounded displayed values is 0.7633; unrounded/aggregation details prevent assuming all rounding differences are errors.",
+        "I": "Reported",
+        "J": "§4.1 pp.4–5; Table 2 p.5; Appendix Table 6 p.16",
+        "K": "https://arxiv.org/pdf/2506.07818v1",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P08-I05",
+    "study_id": "P08",
+    "original_sheet": "Source Extraction",
+    "original_row": 34,
+    "original_record": {
+      "row": 34,
+      "cells": {
+        "A": "P08-I05",
+        "B": "P08",
+        "C": "Existing instrument",
+        "D": "Perception / HTML Programming / WebUI–HTML Understanding scores",
+        "E": "Multiple-choice accuracy; character-level Sørensen–Dice for open-ended text/code answers; CIEDE2000 for color attributes.",
+        "F": "T1–T8 QA items, grouped into sub-capabilities; 21,793 is full dataset QA inventory, not an exact generated-page sample size.",
+        "G": "Reported diagnostic outcomes and cross-model association with T9 performance.",
+        "H": "Keep these QA or snippet outcomes outside core visual-to-web generation. Cross-model association is not proof of causal dependence or page-level metric validity.",
+        "I": "Reported",
+        "J": "§2 pp.3–4; §4.1 p.4; Table 3 p.6; Figure 8 p.8; Appendix A.4 pp.12–16",
+        "K": "https://arxiv.org/pdf/2506.07818v1",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P08-I06",
+    "study_id": "P08",
+    "original_sheet": "Source Extraction",
+    "original_row": 35,
+    "original_record": {
+      "row": 35,
+      "cells": {
+        "A": "P08-I06",
+        "B": "P08",
+        "C": "Existing instrument",
+        "D": "Framework without elements",
+        "E": "Ablates element-level evaluation from the full framework before comparing rankings with human experts.",
+        "F": "Same 100-sample/three-expert/five-model study as the full framework.",
+        "G": "Table 2 expert correlations 0.75/0.74/0.78, printed average 0.76.",
+        "H": "Dependent ablation, not an independent validation sample or direct validation of the removed element measure. Estimator and averaging unit remain unclear.",
+        "I": "Reported",
+        "J": "§4.2/Table 2 pp.5–6",
+        "K": "https://arxiv.org/pdf/2506.07818v1",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P08-I07",
+    "study_id": "P08",
+    "original_sheet": "Source Extraction",
+    "original_row": 36,
+    "original_record": {
+      "row": 36,
+      "cells": {
+        "A": "P08-I07",
+        "B": "P08",
+        "C": "Existing instrument",
+        "D": "Framework without layout",
+        "E": "Ablates layout-level evaluation from the full framework before comparing rankings with human experts.",
+        "F": "Same 100-sample/three-expert/five-model study as the full framework.",
+        "G": "Table 2 correlations 0.81/0.76/0.81; printed average 0.77. Conditional equal-weight mean is 0.793333.",
+        "H": "Retain reported 0.77 and record aggregation query; do not silently replace it. Even allowing rounding, a simple equal-weight mean does not explain 0.77; another rule would need documentation.",
+        "I": "Unclear",
+        "J": "§4.2/Table 2 pp.5–6",
+        "K": "https://arxiv.org/pdf/2506.07818v1",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC-P08-01",
+    "study_id": "P08",
+    "original_sheet": "Source Extraction",
+    "original_row": 37,
+    "original_record": {
+      "row": 37,
+      "cells": {
+        "A": "SC-P08-01",
+        "B": "P08",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Code Compile Success Rate (CCSR)",
+        "E": "Reports code-compilation success by model and in a separate 100-image Tailwind condition.",
+        "F": "Table 4 successful counts/rates; Table 6 CCSR; §5.3 framework study 100 images.",
+        "G": "Reported execution/format success outcomes; Tailwind condition reports 47%→92% alongside visual score 0.718→0.697.",
+        "H": "Exact checker, failure-to-quality-score propagation and stage (format/build/render) remain unclear. Keep success and visual score separate, not a combined functional-quality claim.",
+        "I": "Reported",
+        "J": "Table 4/§5.3 p.8; Appendix Table 6 p.16",
+        "K": "https://arxiv.org/pdf/2506.07818v1",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC-P08-02",
+    "study_id": "P08",
+    "original_sheet": "Source Extraction",
+    "original_row": 38,
+    "original_record": {
+      "row": 38,
+      "cells": {
+        "A": "SC-P08-02",
+        "B": "P08",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Instruction-following failure rate",
+        "E": "Table 4 reports counts and rates of output instruction-following failures for small models.",
+        "F": "Evaluation responses; exact per-model eligible response denominators are not fully explained.",
+        "G": "Reported output-adherence checks, distinct from compilation or interaction success.",
+        "H": "No implied equivalence to valid HTML, successful rendering, or correct UI behavior. Retain source's rate labels without reconstructing missing denominators.",
+        "I": "Reported",
+        "J": "Table 4/§5.2.2 p.8",
+        "K": "https://arxiv.org/pdf/2506.07818v1",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC-P08-03",
+    "study_id": "P08",
+    "original_sheet": "Source Extraction",
+    "original_row": 39,
+    "original_record": {
+      "row": 39,
+      "cells": {
+        "A": "SC-P08-03",
+        "B": "P08",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Dynamic interaction success",
+        "E": "Manual interaction/testing of code generated for 100 instructions involving form validation, event handling and state management.",
+        "F": "100 instruction cases; two models; reported success 0.26 Claude-3.7-Sonnet and 0.20 GPT-4o.",
+        "G": "Positive reported direct behavioral testing in a preliminary extension.",
+        "H": "Supplied visual input, full assertions, tester allocation and uncertainty are not established. Keep separate from T9/visual-metric validation; author's main-benchmark limitation does not erase this exploratory test.",
+        "I": "Reported",
+        "J": "§5.3 p.9; main benchmark limitations p.10",
+        "K": "https://arxiv.org/pdf/2506.07818v1",
+        "L": "No new human verification. H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "S08"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P04-I01",
+    "study_id": "P04",
+    "original_sheet": "Source Extraction",
+    "original_row": 40,
+    "original_record": {
+      "row": 40,
+      "cells": {
+        "A": "P04-I01",
+        "B": "P04",
+        "C": "Existing instrument",
+        "D": "Element Accuracy (EA)",
+        "E": "For corresponding test/reference DOM elements, average six perspectives: tag, SequenceMatcher text, tag-specific attributes, selected styles, JavaScript event bindings and child-tree similarity. Count test elements exceeding threshold 0.9 and divide by reference-element count. Appendix E lists six evaluated event names; Appendix D's broader generation-event list is separate.",
+        "F": "1,200 image–code cases: 340 simple, 645 medium, 215 complex; elements nested within pages. Aggregation/matching edge cases remain unclear.",
+        "G": "Equations (1)–(7) describe code/DOM comparison; §5.2.5 reports a combined ranking association, not separate EA validation.",
+        "H": "Matching JavaScript bindings does not establish successful execution of the event or complete application correctness. Preserve missing matching/empty-set details rather than invent them.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§3.4.1 pp.4–5; §5.1 p.6; Appendices D/E p.13; H/J pp.16–18",
+        "K": "https://arxiv.org/pdf/2409.18980v2",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published abstract: DOM element and sequence-layout definitions; other detail from archived v2 extraction, not presumed publication-equivalent",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P04-I02",
+    "study_id": "P04",
+    "original_sheet": "Source Extraction",
+    "original_row": 41,
+    "original_record": {
+      "row": 41,
+      "cells": {
+        "A": "P04-I02",
+        "B": "P04",
+        "C": "Existing instrument",
+        "D": "Layout Accuracy (LA)",
+        "E": "Linearize web elements and compute longest-common-subsequence length divided by the reference sequence length; a similarity predicate determines element matches.",
+        "F": "Same 1,200 cases and model conditions as EA; score is reference-normalized sequence correspondence, not a separate page sample.",
+        "G": "Equations (8)–(9); Table 5 condition summaries; Table 6 combined ranking comparison.",
+        "H": "The name 'layout' does not turn this sequence procedure into direct pixel-position or spatial-overlap measurement. Element equivalence and historical traversal implementation are not fully verified.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§3.4.2 p.5; Tables 5–6 p.8",
+        "K": "https://arxiv.org/pdf/2409.18980v2",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published abstract: DOM element and sequence-layout definitions; other detail from archived v2 extraction, not presumed publication-equivalent",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P04-I03",
+    "study_id": "P04",
+    "original_sheet": "Source Extraction",
+    "original_row": 42,
+    "original_record": {
+      "row": 42,
+      "cells": {
+        "A": "P04-I03",
+        "B": "P04",
+        "C": "Existing instrument",
+        "D": "Human-in-the-loop ranking comparison / Web Page Quality and User Experience Questionnaire",
+        "E": "Twenty front-end professionals rate 100 generated webpages using a 1–5 questionnaire. Appendix G has 12 items spanning content, layout/structure, interactivity/functionality and overall satisfaction. Compare averaged human model ranks with benchmark ranks; Table 6 shows five paired ranks.",
+        "F": "100 generated webpages stated; 20 raters; correlation unit is five model-ranking pairs, not 100 independent page observations. Page/rater allocation and cross-stage rater overlap are unreported.",
+        "G": "Reported Pearson r=0.8, p=0.104; five table pairs reproduce r=0.8, p≈0.104088. This is a mixed perceived-quality criterion, not purely visual fidelity.",
+        "H": "Retain positive aggregate association. It does not independently validate each EA/LA component, establish actual load-time/action testing, or prove absolute rater agreement.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§5.2.5 p.7; Table 6 p.8; Appendix G pp.15–16",
+        "K": "https://arxiv.org/pdf/2409.18980v2",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published abstract: DOM element and sequence-layout definitions; other detail from archived v2 extraction, not presumed publication-equivalent",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC12-P04-01",
+    "study_id": "P04",
+    "original_sheet": "Source Extraction",
+    "original_row": 43,
+    "original_record": {
+      "row": 43,
+      "cells": {
+        "A": "SC12-P04-01",
+        "B": "P04",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Expert Review of benchmark examples",
+        "E": "Twenty web engineers assess benchmark complexity using tag variety, DOM depth and scripting; three engineers review each data point and disagreements are handled with guidance and majority consensus.",
+        "F": "Three reviewers per data point reported; relationship to the separate 20-professional outcome panel is not established.",
+        "G": "The paper reports a construction/quality-control review procedure.",
+        "H": "Consensus is a dataset-review process, not an independently estimated pre-consensus reliability coefficient or validation of EA/LA.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§3.3 pp.3–4; Appendix B p.12",
+        "K": "https://arxiv.org/pdf/2409.18980v2",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Published abstract: DOM element and sequence-layout definitions; other detail from archived v2 extraction, not presumed publication-equivalent",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P05-I01",
+    "study_id": "P05",
+    "original_sheet": "Source Extraction",
+    "original_row": 44,
+    "original_record": {
+      "row": 44,
+      "cells": {
+        "A": "P05-I01",
+        "B": "P05",
+        "C": "Existing instrument",
+        "D": "Normalized Levenshtein Distance / code similarity",
+        "E": "Compare generated and reference HTML/CSS using the printed similarity S = 1 − distance/(l1+l2); retain the exact expression and source name.",
+        "F": "Main 111-page test; separate 80-page Design2Code-Hard condition and complexity subsets; code sequence unit/preprocessing and empty-string rules not fully specified.",
+        "G": "§6.2.1 gives the formula and reference [59] points to Levenshtein documentation. No separate automatic-code-score/human criterion coefficient was located.",
+        "H": "String correspondence is not semantic equivalence or executed functionality. Exact distance function, edit costs and historical package revision require code-specific verification; current documentation does not establish which historical function ran.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§6.2.1 p.11; §7.3 pp.14–15; reference [59] p.23",
+        "K": "https://doi.org/10.1145/3729364",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P05-I02",
+    "study_id": "P05",
+    "original_sheet": "Source Extraction",
+    "original_row": 45,
+    "original_record": {
+      "row": 45,
+      "cells": {
+        "A": "P05-I02",
+        "B": "P05",
+        "C": "Existing instrument",
+        "D": "CLIP image similarity",
+        "E": "Compare CLIP-ViT-B/32 embeddings of reference and rendered generated pages. The motivating cropped-element comparison is a separate application of image similarity.",
+        "F": "111 primary test webpages; 80 hard webpages reported separately; 12-page motivating study and cropped elements are not independent added page totals.",
+        "G": "Reported visual comparisons across prompts/models; pairwise human method preferences separately support comparative output assessment.",
+        "H": "Retain condition-specific visual association. Method preference is not per-image CLIP calibration; no functional, accessibility or productivity meaning is implied by CLIP alone.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§4.3 p.7; §6.2.1 p.11; Tables 3/5/6 pp.14–15",
+        "K": "https://doi.org/10.1145/3729364",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P05-I03",
+    "study_id": "P05",
+    "original_sheet": "Source Extraction",
+    "original_row": 46,
+    "original_record": {
+      "row": 46,
+      "cells": {
+        "A": "P05-I03",
+        "B": "P05",
+        "C": "Existing instrument",
+        "D": "Fine-grained element-matching measures",
+        "E": "Adopt reference/generated screenshot block matching using the Jonker–Volgenant assignment algorithm. Block-match penalizes missing/hallucinated blocks using matched versus total block sizes; text uses Sørensen–Dice; color uses CIEDE2000; position compares block centers.",
+        "F": "Four component outcomes on shared generated artifacts; not four independent studies. Main comparison Table 4.",
+        "G": "Reported metric definitions and comparative component results; exact inherited evaluator revision is not established.",
+        "H": "Keep the four components under a common family with their operational distinctions. Metric reuse does not automatically transfer validation across versions, samples or claims.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§6.2.2 pp.11–12; Table 4 p.14",
+        "K": "https://doi.org/10.1145/3729364",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P05-I04",
+    "study_id": "P05",
+    "original_sheet": "Source Extraction",
+    "original_row": 47,
+    "original_record": {
+      "row": 47,
+      "cells": {
+        "A": "P05-I04",
+        "B": "P05",
+        "C": "Existing instrument",
+        "D": "Pairwise Method Comparison",
+        "E": "Five PhD annotators compare method output with GPT-4o direct-prompt output against a reference. Win/Lose requires at least three corresponding votes; every other pattern is Tie.",
+        "F": "Five raters; exact number and allocation of page pairs are not reported in inspected §7.5.1. DCGen result is 62% Win, 30% Tie, 8% Lose.",
+        "G": "Figure 9 reports positive visual method preference under the stated majority rule.",
+        "H": "Do not infer pair count from percentages or equate a common method ordering with per-item agreement between automatic metrics and people.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§7.5.1 p.16; Figure 9 p.17",
+        "K": "https://doi.org/10.1145/3729364",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P05-I05",
+    "study_id": "P05",
+    "original_sheet": "Source Extraction",
+    "original_row": 48,
+    "original_record": {
+      "row": 48,
+      "cells": {
+        "A": "P05-I05",
+        "B": "P05",
+        "C": "Existing instrument",
+        "D": "Usefulness evaluation — implementation time",
+        "E": "Four participants are assigned to tool/control groups (two each); each implements two website designs. Control may use preferred tools. Record time with a 20-minute maximum per attempt; one control attempt is unfinished.",
+        "F": "Four people, two design stimuli, eight participant×task attempts implied by the design, nested/repeated rather than eight independent developers.",
+        "G": "Figure 10c reports mean recorded times 14.5 min control and 8 min experimental; descriptive reduction from these displayed means is 44.83%.",
+        "H": "Positive observed workflow evidence is retained, but a capped, small, same-institution study does not justify an unconditional productivity effect. No participant-level data or inference reproduced.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§7.5.2 pp.16–17; Figure 10 p.17",
+        "K": "https://doi.org/10.1145/3729364",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P05-I06",
+    "study_id": "P05",
+    "original_sheet": "Source Extraction",
+    "original_row": 49,
+    "original_record": {
+      "row": 49,
+      "cells": {
+        "A": "P05-I06",
+        "B": "P05",
+        "C": "Existing instrument",
+        "D": "Usefulness evaluation — output similarity and judge correlation",
+        "E": "Two research staff, not involved as participants and blinded to group, rate generated GUI similarity to the input designs using a five-point Likert scale.",
+        "F": "Same eight participant×task outputs implied by the four-person/two-design study. Two judges; raw rating allocation and averaging not fully supplied.",
+        "G": "Figure 10c reports average similarity 2.25 control versus 3.75 experimental. Text reports Pearson r=0.71 between the two judges.",
+        "H": "The coefficient concerns two human rating series, not CLIP-versus-human validity. Pearson association does not by itself establish absolute score agreement; no raw-ratings reproduction is claimed.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§7.5.2 p.17; Figure 10 p.17",
+        "K": "https://doi.org/10.1145/3729364",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC12-P05-01",
+    "study_id": "P05",
+    "original_sheet": "Source Extraction",
+    "original_row": 50,
+    "original_record": {
+      "row": 50,
+      "cells": {
+        "A": "SC12-P05-01",
+        "B": "P05",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Separation-algorithm IoU",
+        "E": "For each predicted separation box, take its maximum IoU against reference boxes obtained from HTML via JavaScript; average the resulting overlap diagnostics.",
+        "F": "Entire test set used for each parameter configuration; predicted boxes nested within webpages; no new independent sample for each setting.",
+        "G": "§7.1 explicitly calls IoU a reference diagnostic and explains that exact HTML-element matching is not the final segmentation objective.",
+        "H": "Record generator-parameter selection, not held-out validation of the final webpage-quality metric. Maximum matching is not a one-to-one assignment.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§7.1 p.12; §7.1.3 p.13",
+        "K": "https://doi.org/10.1145/3729364",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC12-P05-02",
+    "study_id": "P05",
+    "original_sheet": "Source Extraction",
+    "original_row": 51,
+    "original_record": {
+      "row": 51,
+      "cells": {
+        "A": "SC12-P05-02",
+        "B": "P05",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Separation Rate",
+        "E": "Calculate 1 minus area of the largest undivided leaf bounding box divided by the total input-image area.",
+        "F": "One image-level granularity diagnostic per parameter condition; same parameter-analysis sample as IoU.",
+        "G": "Equation in §7.1 and Figures 6–8 describe a granularity/overlap trade-off used to choose generator settings.",
+        "H": "A finer split is not automatically better generated code or more accurate visual reconstruction. Retain the diagnostic purpose.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§7.1 pp.12–14",
+        "K": "https://doi.org/10.1145/3729364",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC12-P05-03",
+    "study_id": "P05",
+    "original_sheet": "Source Extraction",
+    "original_row": 52,
+    "original_record": {
+      "row": 52,
+      "cells": {
+        "A": "SC12-P05-03",
+        "B": "P05",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Motivating-study visual error annotation",
+        "E": "Two graduate students independently identify corresponding elements and describe differences; descriptions are unioned and classified as omission, distortion or misarrangement, permitting multiple errors per element.",
+        "F": "12 webpages; 1,699 original elements; repeated/nested multi-label observations rather than independent webpages.",
+        "G": "Table 2 and §4 report the qualitative error taxonomy; cropped-element follow-up is linked to this motivating stage.",
+        "H": "The unioned annotations do not supply a measured inter-rater reliability coefficient. Multi-label percentages need not total 100%; do not silently normalize them.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§4 pp.5–7; Table 2 p.5",
+        "K": "https://doi.org/10.1145/3729364",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "SC12-P05-04",
+    "study_id": "P05",
+    "original_sheet": "Source Extraction",
+    "original_row": 53,
+    "original_record": {
+      "row": 53,
+      "cells": {
+        "A": "SC12-P05-04",
+        "B": "P05",
+        "C": "Proposed additional family; not added to baseline",
+        "D": "Analytical response-time and token-cost bounds",
+        "E": "The paper reasons that parallel queries yield (depth+1)×t response time and roughly (depth+1)×L generated-token usage for agent assembly; a rule-assembly variant is described as reducing the bound to 2L.",
+        "F": "Analytical quantities t (assumed query time), L (final code length), and depth=2; not sampled participant time or measured API charges.",
+        "G": "§6.1.3 gives the stated theoretical comparison.",
+        "H": "Do not present simplifying bounds as observed latency, money saved, or verified limits across implementations.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§6.1.3 p.11",
+        "K": "https://doi.org/10.1145/3729364",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "publication_view": "retain_scoped",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P09-I01",
+    "study_id": "P09",
+    "original_sheet": "Source Extraction",
+    "original_row": 54,
+    "original_record": {
+      "row": 54,
+      "cells": {
+        "A": "P09-I01",
+        "B": "P09",
+        "C": "Existing instrument",
+        "D": "CLIP Similarity",
+        "E": "Compute image-embedding cosine similarity between reference and generated webpage images; source describes the representation generally without a fully pinned evaluator checkpoint.",
+        "F": "Three 256-case WebCode2M length subsets (768 test cases in total). Shared outputs with SSIM and Visual Score.",
+        "G": "Table 2 reports means and parenthesized dispersion; §4.6 separately reports method preference.",
+        "H": "This measures a visual comparison under the recorded setup, not executed interaction correctness. Human preference does not separately calibrate this score; dispersion across outputs is not proven repeat-run stability.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§4.1–4.4 p.6; Table 2 p.6",
+        "K": "https://arxiv.org/pdf/2505.09904v2",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 54–57: v2 visual metrics, inherited score version and paired method preference",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "D01",
+      "D02"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P09-I02",
+    "study_id": "P09",
+    "original_sheet": "Source Extraction",
+    "original_row": 55,
+    "original_record": {
+      "row": 55,
+      "cells": {
+        "A": "P09-I02",
+        "B": "P09",
+        "C": "Existing instrument",
+        "D": "SSIM (Structural Similarity Index)",
+        "E": "Compare image structural, luminance and contrast characteristics as described by the source; exact preprocessing/window settings are not given in the inspected report.",
+        "F": "Same three 256-case subsets and generated outputs as other visual measures.",
+        "G": "Table 2 and §4.4 distinguish SSIM from the other visual scores; the source notes limited differences between methods.",
+        "H": "Do not equate image structure with DOM correctness or claim all visual metrics uniformly favor the same method. Exact evaluation settings and failure denominators remain bounded.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§4.2–4.4/Table 2 p.6",
+        "K": "https://arxiv.org/pdf/2505.09904v2",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 54–57: v2 visual metrics, inherited score version and paired method preference",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "D01",
+      "D02"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P09-I03",
+    "study_id": "P09",
+    "original_sheet": "Source Extraction",
+    "original_row": 56,
+    "original_record": {
+      "row": 56,
+      "cells": {
+        "A": "P09-I03",
+        "B": "P09",
+        "C": "Existing instrument",
+        "D": "Visual Score — early Design2Code version",
+        "E": "A composite of matched screenshot-block coverage and correspondence in text, position, text color and CLIP similarity. Footnote 2 explicitly identifies the first Design2Code paper's score and warns of version differences.",
+        "F": "Same 768-case primary test; grid-search condition uses the composite, with separate tuning/confirmation sample not established.",
+        "G": "§4.2/footnote 2 and Figures 7–8. Preserve 'block-level color' wording in §4.4 separately from Figure 7's 'block match' label.",
+        "H": "Do not substitute the current Design2Code implementation or count components as independent observations. The existing long-subset 48% prose discrepancy stays unresolved; reported mean/dispersion does not prove repeated-run stability.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§4.2/footnote 2 p.6; §4.4–4.5/Figures 7–8 pp.6–7",
+        "K": "https://arxiv.org/pdf/2505.09904v2",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 54–57: v2 visual metrics, inherited score version and paired method preference",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "D01",
+      "D02"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  },
+  {
+    "record_id": "P09-I04",
+    "study_id": "P09",
+    "original_sheet": "Source Extraction",
+    "original_row": 57,
+    "original_record": {
+      "row": 57,
+      "cells": {
+        "A": "P09-I04",
+        "B": "P09",
+        "C": "Existing instrument",
+        "D": "Human Evaluation — paired visual preference",
+        "E": "Six annotators choose which of UICopilot and GPT-4V outputs more closely matches the reference, with display order shuffled.",
+        "F": "Six raters; exact pair count, per-rater allocation and repeated-item overlap are not established in the report.",
+        "G": "§4.6/Figure 9 reports more than 60% of selections favoring UICopilot.",
+        "H": "Retain positive comparative preference. Do not invent a total vote count, productivity result or automatic-metric validity coefficient.",
+        "I": "Reported; explicit ambiguities retained",
+        "J": "§4.6/Figure 9 p.7",
+        "K": "https://arxiv.org/pdf/2505.09904v2",
+        "L": "No new human verification; H01–H07 unchanged."
+      },
+      "formulas": {}
+    },
+    "study_membership": "in_cited_35",
+    "permitted_study_scope": "Source Extraction rows 54–57: v2 visual metrics, inherited score version and paired method preference",
+    "publication_view": "segregate_inspected_preprint",
+    "dependency_groups": [
+      "D01",
+      "D02"
+    ],
+    "new_human_signoff": false,
+    "record_level_certification": "not_inferred_from_study_membership"
+  }
+]

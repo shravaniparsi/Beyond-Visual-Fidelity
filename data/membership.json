@@ -1,0 +1,1261 @@
+[
+  {
+    "study_id": "P01",
+    "reference": "18",
+    "bibliography": "Si C, Zhang Y, Li R, Yang Z, Liu R, Yang D. Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering. In: NAACL 2025. 2025. doi:10.18653/v1/2025.naacl-long.199.",
+    "publication_view": "retain_scoped",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "NAACL 2025 published PDF §4.3/Table 2, p3962: combined visual-preference predictor and held-out split verified; not individual-metric or functional validity",
+    "task_view": "Static reconstruction",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 5,
+      "cells": {
+        "A": "P01",
+        "B": "Primary",
+        "C": "Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering",
+        "D": "Recorded",
+        "E": "Expanded text audit; completeness/source gaps open",
+        "F": "Partial — current audit",
+        "G": "1",
+        "H": "H02",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Close task-level eligibility and only evidence-critical gaps; Check metric definitions and human-annotation train/test split; separate preference prediction from behavior claims.",
+        "L": "https://aclanthology.org/2025.naacl-long.199/",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P05",
+    "reference": "19",
+    "bibliography": "Wan Y, Wang C, Dong Y, Wang W, Li S, Huo Y, Lyu MR. Divide-and-Conquer: Generating UI Code from Screenshots. Proceedings of the ACM on Software Engineering. 2025;2(FSE):FSE094, 2099–2122. doi:10.1145/3729364.",
+    "publication_view": "retain_scoped",
+    "source_assessed_view": "retain_archived_extraction",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Source Extraction rows 44–53: published DCGen methods, human outcomes and parameter-selection roles",
+    "task_view": "Static reconstruction / iterative",
+    "dependency_groups": [
+      "D01",
+      "D06"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 9,
+      "cells": {
+        "A": "P05",
+        "B": "Primary",
+        "C": "Divide-and-Conquer: Generating UI Code from Screenshots (DCGen)",
+        "D": "Recorded",
+        "E": "Complete for uploaded report — all 24 pages, including algorithms, parameter analyses, human workflow study, figures and references.",
+        "F": "Complete paper-level source extraction; explicitly unresolved fields retained",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Source-ready for bounded synthesis; human-final inclusion/central claims pending",
+        "K": "Apply final task eligibility and grouped human checking; pursue code/raw-data gaps only when the inference requires them.",
+        "L": "https://doi.org/10.1145/3729364",
+        "M": "v12 dossier: P05_completed_source_dossier.md. Version: ACM published report, DOI 10.1145/3729364 (July 2025). No new human approval or run replication.",
+        "N": "Complete",
+        "O": "Complete"
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P06",
+    "reference": "20",
+    "bibliography": "Wu F, Gao C, Li S, Wen XC, Liao Q. MLLM-Based UI2Code Automation Guided by UI Layout Information. Proceedings of the ACM on Software Engineering. 2025. doi:10.1145/3728925.",
+    "publication_view": "retain_scoped",
+    "source_assessed_view": "retain_archived_extraction",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Source Extraction rows 24–29: DOI-bearing report, success-conditioned comparisons; H01 rater-count ambiguity retained",
+    "task_view": "Static reconstruction",
+    "dependency_groups": [
+      "D01"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 10,
+      "cells": {
+        "A": "P06",
+        "B": "Primary",
+        "C": "MLLM-Based UI2Code Automation Guided by UI Layout Information (LayoutCoder)",
+        "D": "Recorded",
+        "E": "Complete — uploaded arXiv:2506.10376v1, with ACM DOI 10.1145/3728925 on the report; all 23 pages, references, appendices and relevant visuals inspected.",
+        "F": "Complete — paper-level source extraction; explicit unknowns retained",
+        "G": "1",
+        "H": "H01",
+        "I": "Not finalized",
+        "J": "Bounded source extraction ready; final eligibility / verification pending",
+        "K": "Human task eligibility; preserve H01 and survivor-conditioned comparisons; no need to reread unchanged report.",
+        "L": "https://arxiv.org/pdf/2506.10376v1",
+        "M": "Source closure 17 September 2026. Uploaded bytes/version preserved. Full text/visual inspection does not certify raw data, historical code runs or independent human validation.",
+        "N": "Complete",
+        "O": "Complete"
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P09",
+    "reference": "21",
+    "bibliography": "Gui Y, Wan Y, Li Z, et al. UICopilot: Automating UI Synthesis via Hierarchical Code Generation from Webpage Designs. In: The Web Conference 2025. 2025. doi:10.1145/3696410.3714891.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_archived_extraction",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Source Extraction rows 54–57: v2 visual metrics, inherited score version and paired method preference",
+    "task_view": "Static reconstruction",
+    "dependency_groups": [
+      "D01",
+      "D02"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 13,
+      "cells": {
+        "A": "P09",
+        "B": "Primary",
+        "C": "UICopilot: Automating UI Synthesis via Hierarchical Code Generation from Webpage Designs",
+        "D": "Recorded",
+        "E": "Complete for uploaded report — prior full ten-page v2 reading retained; evaluation/results refreshed for extraction reconciliation.",
+        "F": "Complete paper-level source extraction; explicitly unresolved fields retained",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Source-ready for bounded synthesis; human-final inclusion/central claims pending",
+        "K": "Apply final task eligibility and grouped human checking; pursue code/raw-data gaps only when the inference requires them.",
+        "L": "https://arxiv.org/pdf/2505.09904v2",
+        "M": "v12 dossier: P09_completed_source_dossier.md. Version: arXiv:2505.09904v2 (23 May 2025), WWW 2025 formatting. No new human approval or run replication.",
+        "N": "Complete",
+        "O": "Complete"
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P11",
+    "reference": "22",
+    "bibliography": "Xiao J, Wan Y, Huo Y, et al. Interaction2Code: Benchmarking MLLM-based Interactive Webpage Code Generation from Interactive Prototyping. In: 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025). 2025:241–253. doi:10.1109/ASE63991.2025.00028.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "arXiv:2411.03292v3 §III-C and §V-A2: detected implementation versus human usability; publication equivalence not checked",
+    "task_view": "Interactive reconstruction",
+    "dependency_groups": [
+      "D07"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 15,
+      "cells": {
+        "A": "P11",
+        "B": "Primary",
+        "C": "Interaction2Code: Benchmarking MLLM-based Interactive Webpage Code Generation from Interactive Prototyping",
+        "D": "Recorded",
+        "E": "Expanded text audit; completeness/source gaps open",
+        "F": "Partial — current audit",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Close task-level eligibility and only evidence-critical gaps; Separate visual interaction-prototype task from text-only ablations; extract rater allocation.",
+        "L": "https://arxiv.org/html/2411.03292v3",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P04",
+    "reference": "23",
+    "bibliography": "Guo H, Zhang W, Chen J, et al. IW-Bench: Evaluating Large Multimodal Models for Converting Image-to-Web. In: Findings of ACL 2025. 2025. doi:10.18653/v1/2025.findings-acl.334.",
+    "publication_view": "retain_scoped",
+    "source_assessed_view": "retain_archived_extraction",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Published abstract: DOM element and sequence-layout definitions; other detail from archived v2 extraction, not presumed publication-equivalent",
+    "task_view": "Static reconstruction",
+    "dependency_groups": [],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 8,
+      "cells": {
+        "A": "P04",
+        "B": "Primary",
+        "C": "IW-Bench: Evaluating Large Multimodal Models for Converting Image-to-Web",
+        "D": "Recorded",
+        "E": "Complete for uploaded report — all 18 pages, including questionnaire, examples, formula tables, event/style/attribute appendices and references.",
+        "F": "Complete paper-level source extraction; explicitly unresolved fields retained",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Source-ready for bounded synthesis; human-final inclusion/central claims pending",
+        "K": "Apply final task eligibility and grouped human checking; pursue code/raw-data gaps only when the inference requires them.",
+        "L": "https://arxiv.org/pdf/2409.18980v2",
+        "M": "v12 dossier: P04_completed_source_dossier.md. Version: arXiv:2409.18980v2 (3 December 2025). No new human approval or run replication.",
+        "N": "Complete",
+        "O": "Complete"
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P03",
+    "reference": "24",
+    "bibliography": "Gui Y, Li Z, Wan Y, et al. WebCode2M: A Real-World Dataset for Code Generation from Webpage Designs. In: The Web Conference 2025. 2025:1834–1845. doi:10.1145/3696410.3714889.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "WebCode2M",
+      "source": "https://arxiv.org/html/2404.06369v2",
+      "anchor": "§3.2–3.3, Appendix A",
+      "decision": "targeted",
+      "version": "inspected preprint v2; publication equivalence unverified",
+      "scope": "TreeBLEU uses sets of height-one DOM subtrees excluding attributes. The visual-score footnote distinguishes an earlier Design2Code implementation from its later color component. Recitation failures affect roughly a third of Gemini cases; their aggregate treatment remains unresolved. Retain operational-definition and version-sensitivity claims, not a complete failure denominator."
+    },
+    "permitted_scope": "§3.2–3.3, Appendix A: TreeBLEU uses sets of height-one DOM subtrees excluding attributes. The visual-score footnote distinguishes an earlier Design2Code implementation from its later color component. Recitation failures affect roughly a third of Gemini cases; their aggregate treatment remains unresolved. Retain operational-definition and version-sensitivity claims, not a complete failure denominator.",
+    "task_view": "Static reconstruction",
+    "dependency_groups": [
+      "D02"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 7,
+      "cells": {
+        "A": "P03",
+        "B": "Primary",
+        "C": "WebCode2M (earlier Vision2UI report family)",
+        "D": "Recorded",
+        "E": "Expanded text audit; completeness/source gaps open",
+        "F": "Partial — current audit",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Close task-level eligibility and only evidence-critical gaps; Reconcile Vision2UI / WebCode2M versions, data filtering and evaluation sample lineage.",
+        "L": "https://arxiv.org/html/2404.06369v2",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P10",
+    "reference": "25",
+    "bibliography": "Sun H, Wang HW, Gu J, Li L, Cheng Y. FullFront: Benchmarking MLLMs Across the Full Front-End Engineering Workflow. arXiv:2505.17399, 2025.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_archived_extraction",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Source Extraction P10 rows: v2 visual/code scores and bounded interaction outcomes; task subsets kept separate",
+    "task_view": "Full front-end workflow",
+    "dependency_groups": [],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 14,
+      "cells": {
+        "A": "P10",
+        "B": "Primary",
+        "C": "FullFront: Benchmarking MLLMs Across the Full Front-End Engineering Workflow",
+        "D": "Recorded",
+        "E": "Complete uploaded-report reading — arXiv:2505.17399v2, 20 pages including appendices and relevant images.",
+        "F": "Paper-level source extraction complete — unknowns explicitly retained; no final verification.",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Bounded source descriptions available; final eligibility/human verification pending.",
+        "K": "Finalize task-level eligibility; resolve rate predicate only for inference requiring runtime assertions; preserve independent human-outcome samples.",
+        "L": "https://arxiv.org/pdf/2505.17399v2",
+        "M": "P10_source_dossier.md; source_extraction_snapshots.json; actual AI reading on 2026-09-17. H coverage unchanged.",
+        "N": "Complete",
+        "O": "Complete"
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P22",
+    "reference": "26",
+    "bibliography": "Xiao J, Qin J, Li S, Lam MH, Wan Y, Huang JT, Huo Y, Lyu MR. ComUICoder: Component-based Reusable UI Code Generation for Complex Websites via Semantic Segmentation and Element-wise Feedback. arXiv:2602.19276, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "ComUICoder",
+      "source": "https://arxiv.org/html/2602.19276v1",
+      "anchor": "§§2.1, 5.1, 6.1; Appendices A5.3, A6",
+      "decision": "targeted",
+      "version": "inspected preprint v1",
+      "scope": "External mockups constrain multi-page generation. Reuse and repetition scores are structural proxies. The main text describes a one-third human-study sample while the appendix describes 100 pages; these accounts are not reconciled. Annotator reliability and agreement in method preference do not establish item-level validity of each automatic metric. Reuse wording and its appendix formula also require caution."
+    },
+    "permitted_scope": "§§2.1, 5.1, 6.1; Appendices A5.3, A6: External mockups constrain multi-page generation. Reuse and repetition scores are structural proxies. The main text describes a one-third human-study sample while the appendix describes 100 pages; these accounts are not reconciled. Annotator reliability and agreement in method preference do not establish item-level validity of each automatic metric. Reuse wording and its appendix formula also require caution.",
+    "task_view": "Engineering/reuse",
+    "dependency_groups": [],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 26,
+      "cells": {
+        "A": "P22",
+        "B": "Primary",
+        "C": "ComUICoder: Component-based Reusable UI Code Generation for Complex Websites via Semantic Segmentation and Element-wise Feedback",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Link KDD title/version; distinguish preference and rater reliability from metric validation.",
+        "L": "https://arxiv.org/abs/2602.19276",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P18",
+    "reference": "27",
+    "bibliography": "Xu Q, Yu Y, Feng C, Liu X. 1D-Bench: A Benchmark for Iterative UI Code Generation with Visual Feedback in Real-World. arXiv:2602.18548, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_human_scoped_claim",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "H05 perturbation interpretation only; v1/v3 discrepancy retained",
+    "task_view": "Iterative refinement",
+    "dependency_groups": [],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 22,
+      "cells": {
+        "A": "P18",
+        "B": "Primary",
+        "C": "1D-Bench: A Benchmark for Iterative UI Code Generation with Visual Feedback in Real-World",
+        "D": "Recorded",
+        "E": "PDF acquired; targeted reading — Title, task/metric passages and p.6 Figure 3/Table 2 image inspected for v3. No raw plot data or v1 PDF inspected.",
+        "F": "Partial — current audit",
+        "G": "1",
+        "H": "H05",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Obtain pinned v1; compare all relevant versions; resolve actual rendering-rate denominators and plot provenance.",
+        "L": "https://arxiv.org/abs/2602.18548",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only. | Intake: 2602.18548v3, 2026-09-17. Possession/reading not final adjudication."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P15",
+    "reference": "28",
+    "bibliography": "Xiao J, Wang M, Lam MH, Wan Y, Liu J, Huo Y, Lyu MR. DesignBench: A Comprehensive Benchmark for MLLM-based Front-end Code Generation. arXiv:2506.06251, 2025.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "arXiv:2506.06251v3 §5.4: judge accuracy distinct from human reliability",
+    "task_view": "Generation/edit/repair benchmark",
+    "dependency_groups": [],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 19,
+      "cells": {
+        "A": "P15",
+        "B": "Primary",
+        "C": "DesignBench: A Comprehensive Benchmark for MLLM-based Front-end Code Generation",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Judge-specific human support only; low code BLEU cannot establish no training contamination.",
+        "L": "https://github.com/WebPAI/DesignBench",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P21",
+    "reference": "16",
+    "bibliography": "Li Y, Zhang C, Lv R, Liu A, Deng K, Zhang Y, Liu J, Zhou B. ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding. In: ACL 2026. 2026:25471–25485. doi:10.18653/v1/2026.acl-long.1167.",
+    "publication_view": "retain_boundary_only",
+    "source_assessed_view": "retain_boundary_only",
+    "eligibility_note": "Boundary comparator only; external visual specification not established",
+    "new_source_check": null,
+    "permitted_scope": "ACL 2026 §§2.1, 2.5–2.7, 3.1 and Appendix A: text-to-code with internal rendered feedback; boundary-only reward/evaluator comparator; no separable external-visual-target subset established",
+    "task_view": "Agentic web coding / reward",
+    "dependency_groups": [
+      "D05"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 25,
+      "cells": {
+        "A": "P21",
+        "B": "Primary",
+        "C": "ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Trace critic/evaluator roles and inherited benchmark validity; check independence and visual scope.",
+        "L": "https://aclanthology.org/2026.acl-long.1167/",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P17",
+    "reference": "29",
+    "bibliography": "Chen Y, Liu M, Shen Y, et al. IWR-Bench: Can LVLMs Reconstruct Interactive Webpage from a User Interaction Video? In: ICLR 2026. 2026.",
+    "publication_view": "retain_scoped",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": null,
+    "permitted_scope": "ICLR 2026 §§4.1–4.2, §5.4, Appendix C p17: interactive external-video task; success-conditioned visual score; human sample used for weight calibration, not demonstrated held-out validation",
+    "task_view": "Interactive/video reconstruction",
+    "dependency_groups": [
+      "S17",
+      "D07"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 21,
+      "cells": {
+        "A": "P17",
+        "B": "Primary",
+        "C": "IWR-Bench: Can LVLMs Reconstruct Interactive Webpage from a User Interaction Video?",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Parameter selection on human ratings is calibration; search separately for held-out confirmation.",
+        "L": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/55bfedfd31489e5ae83c9ce8eec7b0e1-Abstract-Conference.html",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P70",
+    "reference": "30",
+    "bibliography": "Ji A, Mudunuri AV, Chan DM, Suhr A. Animation2Code: Evaluating Temporal Visual Reasoning in Video-to-Code Generation. arXiv:2606.28593, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Late-study records LATE-P70-01–08, supplied v1; selection/split caveats",
+    "task_view": "Dynamic/temporal recreation",
+    "dependency_groups": [
+      "S70"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": null,
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P71",
+    "reference": "31",
+    "bibliography": "Dai Y, Lai Y, Huang M, et al. WebVR: Benchmarking Multimodal LLMs for WebPage Recreation from Videos via Human-Aligned Visual Rubrics. arXiv:2603.13391, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Late-study records LATE-P71-01–04, arXiv v1; selection/evaluation/human/stability roles",
+    "task_view": "Dynamic/video-conditioned recreation",
+    "dependency_groups": [
+      "S71"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": null,
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P16",
+    "reference": "32",
+    "bibliography": "Gui Y, Zhang J, Wang Y, et al. Figma2Code: Automating Multimodal Design to Code in the Wild. In: ICLR 2026. 2026.",
+    "publication_view": "retain_scoped",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "Figma2Code",
+      "source": "https://proceedings.iclr.cc/paper_files/paper/2026/file/8ff8b17225ccfc53d13b805d8e909702-Paper-Conference.pdf",
+      "anchor": "§§2, 4.1; appendix evaluation",
+      "decision": "targeted",
+      "version": "published ICLR 2026",
+      "scope": "Figma JSON, assets and design images constrain generation; the inspected evaluation uses Tailwind HTML. Relative CSS units and absolute/fixed positioning are responsiveness proxies. Semantic-tag and arbitrary-value proportions are code proxies, not measured maintenance effort, viewport adaptation or accessibility conformance."
+    },
+    "permitted_scope": "§§2, 4.1; appendix evaluation: Figma JSON, assets and design images constrain generation; the inspected evaluation uses Tailwind HTML. Relative CSS units and absolute/fixed positioning are responsiveness proxies. Semantic-tag and arbitrary-value proportions are code proxies, not measured maintenance effort, viewport adaptation or accessibility conformance.",
+    "task_view": "Engineering-focused generation",
+    "dependency_groups": [],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 20,
+      "cells": {
+        "A": "P16",
+        "B": "Primary",
+        "C": "Figma2Code: Automating Multimodal Design to Code in the Wild",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Separate code/CSS engineering proxies from observed responsiveness and maintenance outcomes.",
+        "L": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/8ff8b17225ccfc53d13b805d8e909702-Abstract-Conference.html",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P26",
+    "reference": "17",
+    "bibliography": "Yuan M, Chen J, Xing Z, et al. DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models. In: ICSE 2025. 2025. doi:10.1109/ICSE55347.2025.00109.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "Retained in supplied-fault-state repair stratum; excluded from screenshot reconstruction",
+    "new_source_check": {
+      "name": "DesignRepair",
+      "source": "https://arxiv.org/html/2411.01606v1",
+      "anchor": "§III; §IV A–C",
+      "decision": "targeted",
+      "version": "inspected preprint v1; ICSE publication equivalence unverified",
+      "scope": "Retain only in the supplied-fault-state repair stratum: existing frontend code and its rendered state, with design-guideline constraints, define the repair task. This is not external-target screenshot reconstruction. Baseline comparisons use hard-constraint subsets of the annotated violations. Guideline detection/repair outcomes do not establish universal accessibility conformance. Eligibility interpretation requires author confirmation."
+    },
+    "permitted_scope": "§III; §IV A–C: Retain only in the supplied-fault-state repair stratum: existing frontend code and its rendered state, with design-guideline constraints, define the repair task. This is not external-target screenshot reconstruction. Baseline comparisons use hard-constraint subsets of the annotated violations. Guideline detection/repair outcomes do not establish universal accessibility conformance.",
+    "task_view": "Repair/diagnostic",
+    "dependency_groups": [],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 30,
+      "cells": {
+        "A": "P26",
+        "B": "Primary",
+        "C": "DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Adjudicate visually specified repair subsets; distinguish guideline checks from accessibility compliance.",
+        "L": "https://conf.researchr.org/details/icse-2025/icse-2025-research-track/138/DesignRepair-Dual-Stream-Design-Guideline-Aware-Frontend-Repair-with-Large-Language-",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false,
+    "scope_decision_2026_09_18": {
+      "decision": "retain_repair_only",
+      "basis": "Existing repair rule applied during the authorized consistency review; inspected DesignRepair v1 §III and §IV A–C.",
+      "effect": "No membership-count change; not new independent human verification or publication-version equivalence."
+    }
+  },
+  {
+    "study_id": "P65",
+    "reference": "33",
+    "bibliography": "Ahmed A, Fresco M, Forsberg F, Grotli H. From Code to Compliance: Assessing ChatGPT’s Utility in Designing an Accessible Webpage—A Case Study. arXiv:2501.03572, 2025.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_archived_extraction",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Source Extraction P65 rows: bounded accessibility-repair outcomes, not universal conformance",
+    "task_view": "Accessibility repair/case study",
+    "dependency_groups": [],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 69,
+      "cells": {
+        "A": "P65",
+        "B": "Primary",
+        "C": "From Code to Compliance: Assessing ChatGPT’s Utility in Designing an Accessible Webpage—A Case Study",
+        "D": "Recorded",
+        "E": "Complete uploaded-report reading — arXiv:2501.03572v2, 21 pages including appendices and relevant images.",
+        "F": "Paper-level source extraction complete — unknowns explicitly retained; no final verification.",
+        "G": "1",
+        "H": "H06",
+        "I": "Not finalized",
+        "J": "Bounded source descriptions available; final eligibility/human verification pending.",
+        "K": "Adjudicate diagnostic-screenshot repair scope; keep mixed-outcome denominator and standards/intervention uncertainties explicit.",
+        "L": "https://arxiv.org/pdf/2501.03572v2",
+        "M": "P65_source_dossier.md; source_extraction_snapshots.json; actual AI reading on 2026-09-17. H coverage unchanged.",
+        "N": "Complete",
+        "O": "Complete"
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P23",
+    "reference": "34",
+    "bibliography": "Guo Z, Xiao J, Sun Y, Huo Y. Does It Render Everywhere? A Study of Cross-Environment Compatibility in MLLM-Generated Webpages. arXiv:2608.12518, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_human_scoped_claim",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "H08 conditional compatibility denominator only",
+    "task_view": "Deployment/compatibility",
+    "dependency_groups": [
+      "D06"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 27,
+      "cells": {
+        "A": "P23",
+        "B": "Primary",
+        "C": "Does It Render Everywhere? A Study of Cross-Environment Compatibility in MLLM-Generated Webpages",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Account for excluded pages and nested environment pairs; check held-out split and direct compatibility claims.",
+        "L": "https://arxiv.org/abs/2608.12518v1",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P41",
+    "reference": "35",
+    "bibliography": "Yang H, Qiu W, Zhang R, et al. UI-UG: A Unified MLLM for UI Understanding and Generation. arXiv:2509.24361, 2025.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_human_scoped_claim",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "H04 appearance-prompt interpretation only",
+    "task_view": "Mixed UI understanding/generation",
+    "dependency_groups": [],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 45,
+      "cells": {
+        "A": "P41",
+        "B": "Primary",
+        "C": "UI-UG",
+        "D": "Recorded",
+        "E": "Expanded text audit; completeness/source gaps open",
+        "F": "Partial — current audit",
+        "G": "1",
+        "H": "H04",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Close task-level eligibility and only evidence-critical gaps; Separate understanding/generation; verify visual-input subset, web renderer, parsing versus rendering; pinned code ≠ paper-run proof.",
+        "L": "https://arxiv.org/html/2509.24361v1",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P12",
+    "reference": "36",
+    "bibliography": "Wan Y, Dong Y, Xiao J, Huo Y, Wang W, Lyu MR. MRWeb: An Exploration of Generating Multi-Page Resource-Aware Web Code from UI Designs. arXiv:2412.15310, 2024.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "arXiv:2412.15310v1 §6.1/Table 2: shared 600-pair criterion study",
+    "task_view": "Multi-page/resource-aware generation",
+    "dependency_groups": [
+      "S12"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 16,
+      "cells": {
+        "A": "P12",
+        "B": "Primary",
+        "C": "MRWeb: An Exploration of Generating Multi-Page Resource-Aware Web Code from UI Designs",
+        "D": "Recorded",
+        "E": "Expanded text audit; completeness/source gaps open",
+        "F": "Partial — current audit",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Close task-level eligibility and only evidence-critical gaps; Trace 500-site dataset versus 600-pair validation sample; inspect metric tuning and independence.",
+        "L": "https://arxiv.org/html/2412.15310v1",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P08",
+    "reference": "37",
+    "bibliography": "Lin Z, Zhou Z, Zhao Z, Wan T, Ma Y, Gao J, Li X. WebUIBench: A Comprehensive Benchmark for Evaluating Multimodal Large Language Models in WebUI-to-Code. In: Findings of ACL 2025. 2025:15780–15797. doi:10.18653/v1/2025.findings-acl.815.",
+    "publication_view": "retain_scoped",
+    "source_assessed_view": "retain_archived_extraction",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Published Table 2 and §4.2; ranking evidence and aggregate discrepancy; remaining extraction from archived preprint",
+    "task_view": "Static reconstruction benchmark",
+    "dependency_groups": [
+      "S08"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 12,
+      "cells": {
+        "A": "P08",
+        "B": "Primary",
+        "C": "WebUIBench: A Comprehensive Benchmark for Evaluating MLLMs in WebUI-to-Code",
+        "D": "Recorded",
+        "E": "Complete — uploaded arXiv:2506.07818v1; all 18 pages, references, appendices and relevant visuals inspected.",
+        "F": "Complete — paper-level source extraction; explicit unknowns retained",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Bounded source extraction ready; final eligibility / verification pending",
+        "K": "Human task eligibility; retain estimator/aggregation and failure-handling limits; no final publisher equivalence.",
+        "L": "https://arxiv.org/pdf/2506.07818v1",
+        "M": "Source closure 17 September 2026. Uploaded bytes/version preserved. Full text/visual inspection does not certify raw data, historical code runs or independent human validation.",
+        "N": "Complete",
+        "O": "Complete"
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P32",
+    "reference": "38",
+    "bibliography": "He Z, Hong W, Yang Z, Pan Z, Liu M, Gu X, Tang J. Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification. arXiv:2603.26648, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "Vision2Web",
+      "source": "https://arxiv.org/html/2603.26648v1",
+      "anchor": "§§2.1, 3.2, 4.1, 4.4; Appendix A2.2",
+      "decision": "targeted",
+      "version": "inspected preprint v1",
+      "scope": "External prototypes constrain static and interactive tasks. Functional validation reports 218/250 correct node judgments sampled within approximately 100 workflows across 64 tasks: nodes are clustered. Visual-judge agreement is a separate prototype-ranking exercise. Deployment permits retries; precise contributions of missing/unreached nodes remain unresolved. Planned evaluator updates make version pinning necessary."
+    },
+    "permitted_scope": "§§2.1, 3.2, 4.1, 4.4; Appendix A2.2: External prototypes constrain static and interactive tasks. Functional validation reports 218/250 correct node judgments sampled within approximately 100 workflows across 64 tasks: nodes are clustered. Visual-judge agreement is a separate prototype-ranking exercise. Deployment permits retries; precise contributions of missing/unreached nodes remain unresolved. Planned evaluator updates make version pinning necessary.",
+    "task_view": "Interactive/agent verification",
+    "dependency_groups": [
+      "S32"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 36,
+      "cells": {
+        "A": "P32",
+        "B": "Primary",
+        "C": "Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Verify agent-based oracles, human agreement, shared validation samples and failure conditions.",
+        "L": "https://arxiv.org/html/2603.26648v2",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P52",
+    "reference": "39",
+    "bibliography": "Wu F, Dong L, Gao C, Chen Y, Huang Y, Xiao Y, Liao Q. Benchmarking Multimodal LLMs on Code Generation for Complex Interactive Webpages. arXiv:2606.00154, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "WebIGBench",
+      "source": "https://arxiv.org/pdf/2606.00154v1",
+      "anchor": "§3.1; Appendices A1, B5–B7; Table 8, PDF pp12–18",
+      "decision": "targeted",
+      "version": "inspected preprint v1",
+      "scope": "State images and optional actions define generation. Table 8 valid-evaluation counts vary from 92 to 103 across configurations. Match scoring is conditional on matched steps; Full scoring carries the last available screenshot forward. Zero-match/no-screenshot handling remains unresolved. Main-text matcher validation and appendix sequence-extraction annotation describe different units and must not be conflated. Cross-LLM matching agreement is stability evidence, not another human criterion."
+    },
+    "permitted_scope": "§3.1; Appendices A1, B5–B7; Table 8, PDF pp12–18: State images and optional actions define generation. Table 8 valid-evaluation counts vary from 92 to 103 across configurations. Match scoring is conditional on matched steps; Full scoring carries the last available screenshot forward. Zero-match/no-screenshot handling remains unresolved. Main-text matcher validation and appendix sequence-extraction annotation describe different units and must not be conflated. Cross-LLM matching agreement is stability evidence, not another human criterion.",
+    "task_view": "Interactive webpage generation",
+    "dependency_groups": [
+      "S52"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 56,
+      "cells": {
+        "A": "P52",
+        "B": "Primary",
+        "C": "Benchmarking Multimodal LLMs on Code Generation for Complex Interactive Webpages",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Resolve ambiguous target of reported κ and action extraction versus matcher evidence.",
+        "L": "https://arxiv.org/html/2606.00154v1",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P57",
+    "reference": "40",
+    "bibliography": "Guo Y, Chen H, Ye Z, Wang G, Yu C, Chen Z. Rendering-in-the-Loop: An Execution-Driven Agent for Interactive Web Development. arXiv:2609.02088, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "RILA",
+      "source": "https://arxiv.org/pdf/2609.02088v1",
+      "anchor": "Method; benchmark evaluation; Table 4, PDF p7",
+      "decision": "targeted",
+      "version": "inspected preprint v1",
+      "scope": "Reference video constrains generation. The composite used for best-so-far selection is distinct from final inherited benchmark metrics. Table 4 reports interaction rate over 375 tasks and similarity over 301 jointly triggered tasks; the denominators must remain separate. Reuse of IWR-Bench and Interaction2Code does not provide new independent validation of those instruments."
+    },
+    "permitted_scope": "Method; benchmark evaluation; Table 4, PDF p7: Reference video constrains generation. The composite used for best-so-far selection is distinct from final inherited benchmark metrics. Table 4 reports interaction rate over 375 tasks and similarity over 301 jointly triggered tasks; the denominators must remain separate. Reuse of IWR-Bench and Interaction2Code does not provide new independent validation of those instruments.",
+    "task_view": "Interactive web development",
+    "dependency_groups": [
+      "D07"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 61,
+      "cells": {
+        "A": "P57",
+        "B": "Primary",
+        "C": "Rendering-in-the-Loop",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Distinguish rendering feedback from externally supplied specification; pin pre-cutoff version.",
+        "L": "https://arxiv.org/html/2609.02088v1",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P67",
+    "reference": "41",
+    "bibliography": "Jiang Y, Zheng Y, Wan Y, Han J, Wang Q, Lyu MR, Yue X. ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents. arXiv:2507.22827, 2025.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Late-study records LATE-P67-01–11, arXiv v2; roles and workflow outcomes",
+    "task_view": "Static reconstruction",
+    "dependency_groups": [
+      "D01",
+      "D03"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": null,
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P19",
+    "reference": "42",
+    "bibliography": "Yang Z, Hong W, Xu M, Fan X, Wang W, Cheng J, Gu X, Tang J. UI2Code^N: UI-to-Code Generation as Interactive Visual Optimization. In: Proceedings of the 43rd International Conference on Machine Learning (ICML 2026). 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "UI2Code^N",
+      "source": "https://arxiv.org/html/2511.08195v1",
+      "anchor": "§3.1; Appendix A3.1",
+      "decision": "targeted",
+      "version": "inspected preprint v1; later ICML-title equivalence unverified",
+      "scope": "Reference images constrain drafting, polishing and editing. Reported accuracy is the share reaching a visual-judge threshold, not functional accuracy. Reward/selection and final judging have distinct roles. Claims are restricted to this version rather than silently transferred to the later renamed report."
+    },
+    "permitted_scope": "§3.1; Appendix A3.1: Reference images constrain drafting, polishing and editing. Reported accuracy is the share reaching a visual-judge threshold, not functional accuracy. Reward/selection and final judging have distinct roles. Claims are restricted to this version rather than silently transferred to the later renamed report.",
+    "task_view": "Interactive visual optimization",
+    "dependency_groups": [
+      "D04"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 23,
+      "cells": {
+        "A": "P19",
+        "B": "Primary",
+        "C": "UI2Code^N: UI-to-Code Generation as Interactive Visual Optimization",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Pin actual manuscript and evaluation code; inspect visual feedback versus supplied reference input.",
+        "L": "https://github.com/zai-org/UI2Code_N",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P49",
+    "reference": "43",
+    "bibliography": "Deng J, Yao K, Zhang L. VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation. arXiv:2602.05998, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "VisRefiner",
+      "source": "https://arxiv.org/html/2602.05998v1",
+      "anchor": "Reward definition; §6.2; reward/evaluation appendix",
+      "decision": "targeted",
+      "version": "inspected preprint v1",
+      "scope": "External reference screenshots constrain refinement. Training CLIP reward and the masked layout evaluation variant are distinct implementations. The appendix minimum-improvement threshold differs from the main text's strict-positive condition. Human refined-versus-initial preference supports method improvement on the tested comparisons, not independent validation of every accompanying metric."
+    },
+    "permitted_scope": "Reward definition; §6.2; reward/evaluation appendix: External reference screenshots constrain refinement. Training CLIP reward and the masked layout evaluation variant are distinct implementations. The appendix minimum-improvement threshold differs from the main text's strict-positive condition. Human refined-versus-initial preference supports method improvement on the tested comparisons, not independent validation of every accompanying metric.",
+    "task_view": "Iterative refinement",
+    "dependency_groups": [
+      "D01"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 53,
+      "cells": {
+        "A": "P49",
+        "B": "Primary",
+        "C": "VisRefiner",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Distinguish target screenshots from self-rendered critique feedback; audit refinement metrics.",
+        "L": "https://arxiv.org/html/2602.05998v1",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P31",
+    "reference": "44",
+    "bibliography": "Xiao S, Chen Y, Li J, Chen L, Sun L, Zhou T. Prototype2Code: End-to-End Front-End Code Generation From UI Design Prototypes. In: ASME 2024 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference. 2024. doi:10.1115/DETC2024-143139.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "Prototype2Code",
+      "source": "https://arxiv.org/html/2405.04975v1",
+      "anchor": "§§4.3–4.4",
+      "decision": "targeted",
+      "version": "inspected preprint v1; publication equivalence unverified",
+      "scope": "Prototype-constrained generation uses visual scores and a small developer assessment. Five frontend engineers each review ten pages. Availability is based on the proportion of code not changed to satisfy basic requirements, then mapped to a scale; it is not runtime uptime. Ratings and bounded edits are not longitudinal maintainability evidence."
+    },
+    "permitted_scope": "§§4.3–4.4: Prototype-constrained generation uses visual scores and a small developer assessment. Five frontend engineers each review ten pages. Availability is based on the proportion of code not changed to satisfy basic requirements, then mapped to a scale; it is not runtime uptime. Ratings and bounded edits are not longitudinal maintainability evidence.",
+    "task_view": "Prototype-to-code",
+    "dependency_groups": [],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 35,
+      "cells": {
+        "A": "P31",
+        "B": "Primary",
+        "C": "Prototype2Code: End-to-end Front-end Code Generation from UI Design Prototypes",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Inspect prototype input, web renderer, component reuse and direct human outcomes.",
+        "L": "https://arxiv.org/html/2405.04975v1",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P25",
+    "reference": "45",
+    "bibliography": "Xiao J, Zhang Z, Wan Y, Huo Y, Liu Y, Lyu MR. EfficientUICoder: Efficient MLLM-based UI Code Generation via Input and Output Token Compression. Proceedings of the ACM on Software Engineering. 2026;3(FSE):2396–2418. doi:10.1145/3808114.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "EfficientUICoder",
+      "source": "https://arxiv.org/html/2509.12159v1",
+      "anchor": "§§2.1, 5.2–5.3",
+      "decision": "targeted",
+      "version": "inspected preprint v1; publication equivalence unverified",
+      "scope": "Screenshot-to-code evaluation combines visual/reference measures with efficiency outcomes. Compression is the retained-token ratio. FLOPs cover the LLM backbone and exclude the visual encoder; timing depends on the stated hardware. Quality preservation is restricted to the tested measures, not demonstrated functional equivalence. WebCode2M sampling wording is not used to infer an additional exact denominator."
+    },
+    "permitted_scope": "§§2.1, 5.2–5.3: Screenshot-to-code evaluation combines visual/reference measures with efficiency outcomes. Compression is the retained-token ratio. FLOPs cover the LLM backbone and exclude the visual encoder; timing depends on the stated hardware. Quality preservation is restricted to the tested measures, not demonstrated functional equivalence. WebCode2M sampling wording is not used to infer an additional exact denominator.",
+    "task_view": "Efficiency-focused generation",
+    "dependency_groups": [
+      "D01",
+      "D02"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 29,
+      "cells": {
+        "A": "P25",
+        "B": "Primary",
+        "C": "EfficientUICoder: Efficient MLLM-based UI Code Generation via Input and Output Token Compression",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Inspect compression evaluation, reconstructed artifact measures and quality-preservation scope.",
+        "L": "https://arxiv.org/html/2509.12159v1",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P33",
+    "reference": "46",
+    "bibliography": "Dai D, Li S, Chen R, Wang H, Wu B, Lan Q. UIPress: Bringing Optical Token Compression to UI-to-Code Generation. arXiv:2604.09442, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "UIPress",
+      "source": "https://arxiv.org/pdf/2604.09442v1",
+      "anchor": "§§4.2–4.5; Table 1, PDF p6",
+      "decision": "targeted",
+      "version": "inspected preprint v1",
+      "scope": "Table 1 reports the 50-page validation split and a checkpoint selected by validation CLIP, not the 435 pages described as reserved for final evaluation. Its stated 485-page dataset also differs from the usual 484-page Design2Code count; do not silently reconcile this. CLIP and bootstrap uncertainty are not new human-criterion validation. Latency and memory are hardware- and procedure-specific."
+    },
+    "permitted_scope": "§§4.2–4.5; Table 1, PDF p6: Table 1 reports the 50-page validation split and a checkpoint selected by validation CLIP, not the 435 pages described as reserved for final evaluation. Its stated 485-page dataset also differs from the usual 484-page Design2Code count; do not silently reconcile this. CLIP and bootstrap uncertainty are not new human-criterion validation. Latency and memory are hardware- and procedure-specific.",
+    "task_view": "Efficiency-focused generation",
+    "dependency_groups": [
+      "D01",
+      "S33"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 37,
+      "cells": {
+        "A": "P33",
+        "B": "Primary",
+        "C": "UIPress: Bringing Optical Token Compression to UI-to-Code Generation",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Verify optical-token compression task subsets and metric implementation reuse.",
+        "L": "https://arxiv.org/html/2604.09442v1",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P24",
+    "reference": "47",
+    "bibliography": "Le CT, Ong TYS, Xiao J, Wan Y, Huo Y. UIBenchKit: A Unified Toolkit for Design-to-Code Model Evaluation. In: ASE 2026 Tools and Datasets. 2026. doi:10.1145/3832783.3834612.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": null,
+    "permitted_scope": "arXiv:2605.13141v1 §§2, 4–5: screenshot-to-code orchestration and inherited metrics; no new human calibration described; equivalence to cited ASE publication not verified",
+    "task_view": "Evaluation toolkit",
+    "dependency_groups": [
+      "D01"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 28,
+      "cells": {
+        "A": "P24",
+        "B": "Primary",
+        "C": "UIBenchKit: A Unified Toolkit for Design-to-Code Model Evaluation",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Separate toolkit unification from evidence that metrics measure intended constructs.",
+        "L": "https://arxiv.org/html/2605.13141v1",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P07",
+    "reference": "48",
+    "bibliography": "Li R, Zhang Y, Yang D. Sketch2Code: Evaluating Vision-Language Models for Interactive Web Design Prototyping. In: NAACL 2025. 2025:3921–3955. doi:10.18653/v1/2025.naacl-long.198.",
+    "publication_view": "retain_scoped",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "External visual-input task checked in this update",
+    "new_source_check": {
+      "name": "Sketch2Code",
+      "source": "https://aclanthology.org/2025.naacl-long.198.pdf",
+      "anchor": "§§3.2, 4.5, 5; Appendix D",
+      "decision": "targeted",
+      "version": "published NAACL 2025",
+      "scope": "Externally supplied sketches define the reconstruction task. Expert interviews address workflow preferences and expected utility; simulated-user feedback checks address feedback quality. Neither establishes observed productivity gains or item-level validity of the visual metric. Derived webpage ancestry links this study to Design2Code."
+    },
+    "permitted_scope": "§§3.2, 4.5, 5; Appendix D: Externally supplied sketches define the reconstruction task. Expert interviews address workflow preferences and expected utility; simulated-user feedback checks address feedback quality. Neither establishes observed productivity gains or item-level validity of the visual metric. Derived webpage ancestry links this study to Design2Code.",
+    "task_view": "Sketch-based interactive prototyping",
+    "dependency_groups": [
+      "D01"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 11,
+      "cells": {
+        "A": "P07",
+        "B": "Primary",
+        "C": "Sketch2Code: Evaluating Vision-Language Models for Interactive Web Design Prototyping",
+        "D": "Recorded",
+        "E": "PDF acquired; targeted reading — Title/main metric text; pp.14–15 Tables 2–3/Figure 6 and appendix p-value passage. Figure 6 image viewed; complete 35-page reading open.",
+        "F": "Partial — current audit",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Obtain/compare NAACL version and finish remaining appendix; do not normalize inconsistent label totals silently.",
+        "L": "https://aclanthology.org/2025.naacl-long.198/",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only. | Intake: 2410.16232v1, 2026-09-17. Possession/reading not final adjudication."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P69",
+    "reference": "49",
+    "bibliography": "Zheng Y, Jiang Y, Zhang M, Wan Y, Feng K, Peng T, Zhang B, Yue X. UniCoder: Unified Visual-to-Code Generation via Symbolic Rewards and Reference-Guided Code Optimization. arXiv:2606.31732, 2026.",
+    "publication_view": "segregate_inspected_preprint",
+    "source_assessed_view": "retain_targeted_claims",
+    "eligibility_note": "Inherited task classification; not newly adjudicated in this update",
+    "new_source_check": null,
+    "permitted_scope": "Late-study records LATE-P69-01–09, arXiv v1; webpage subset only",
+    "task_view": "Boundary/reward-design",
+    "dependency_groups": [
+      "D01",
+      "D03",
+      "D04"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": null,
+    "new_human_signoff": false
+  },
+  {
+    "study_id": "P20",
+    "reference": "15",
+    "bibliography": "Feng J, Yang J, Zhang W, et al. FrontCoder: Scaling Visual Fidelity in Front-End Code Generation. In: Findings of ACL 2026. 2026:4485–4505. doi:10.18653/v1/2026.findings-acl.220.",
+    "publication_view": "retain_boundary_only",
+    "source_assessed_view": "retain_boundary_only",
+    "eligibility_note": "Boundary comparator only; external visual specification not established",
+    "new_source_check": {
+      "name": "FrontCoder",
+      "source": "https://aclanthology.org/2026.findings-acl.220.pdf",
+      "anchor": "§§2, 3.1.1–3.1.3; Limitations",
+      "decision": "boundary",
+      "version": "published Findings of ACL 2026",
+      "scope": "Inspected text-to-code tasks use internally rendered screenshots for criticism; a separable externally supplied visual-target subset is not established. Retain only as a boundary comparator. The reported judge-to-judge association is distinct from human-criterion validity; ArtifactsBench alignment is inherited. The limitations exclude interaction/dynamic-responsiveness assessment."
+    },
+    "permitted_scope": "§§2, 3.1.1–3.1.3; Limitations: Inspected text-to-code tasks use internally rendered screenshots for criticism; a separable externally supplied visual-target subset is not established. Retain only as a boundary comparator. The reported judge-to-judge association is distinct from human-criterion validity; ArtifactsBench alignment is inherited. The limitations exclude interaction/dynamic-responsiveness assessment.",
+    "task_view": "Static reconstruction / reward",
+    "dependency_groups": [
+      "D05"
+    ],
+    "dependency_unassigned_means": "unknown, not independent",
+    "legacy_source_status": {
+      "row": 24,
+      "cells": {
+        "A": "P20",
+        "B": "Primary",
+        "C": "FrontCoder: Scaling Visual Fidelity in Front-End Code Generation",
+        "D": "Not recorded in current batches",
+        "E": "Current full reading not certified; inherited work retained",
+        "F": "Inherited extraction; not freshly reconciled",
+        "G": "0",
+        "H": "None",
+        "I": "Not finalized",
+        "J": "Not ready — eligibility/extraction open",
+        "K": "Pin ACL full text; trace inherited ArtifactsBench evaluation and human-validity evidence.",
+        "L": "https://aclanthology.org/2026.findings-acl.220/",
+        "M": "Study Queue; batch dossiers. H checks cover presented passages only."
+      },
+      "formulas": {}
+    },
+    "new_human_signoff": false
+  }
+]

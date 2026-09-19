@@ -1,10 +1,10 @@
-# UI-to-Code manuscript numerical-claim audit — v1
+# UI-to-Code manuscript numerical-claim audit — v14 evidence package
 
-Scope: conclusion-driving numerical statements currently present in manuscript v0.7. This audit records what can be stated now, what must remain qualified, and what is deliberately not inferred.
+Scope: conclusion-driving numerical statements currently present in manuscript v14. This audit records what can be stated now, what must remain qualified, and what is deliberately not inferred.
 
 | Manuscript claim | Source / locator retained in project | Audit status | Locked interpretation |
 |---|---|---|---|
-| Design2Code combined predictor: 79.9% held-out test accuracy | P01, §4.3; appendices C/F; human verification H02 | PASS | Predicts tested human pairwise visual preferences; not functional correctness and not separate validation of each component metric. |
+| Design2Code combined predictor: 79.9% held-out test accuracy | P01, published NAACL 2025 PDF §4.3/Table 2, p3962; earlier human verification H02 | PASS | Predicts tested human pairwise visual preferences; not functional correctness and not separate validation of each component metric. |
 | MRWeb: 600 screenshot pairs, 14 raters; MAE 0.542, NEMD 0.508, CLIP 0.340; human 0.640 | P12, §6.1 Table 2; Appendices D–E | PASS | Condition-specific visual criterion associations; 0.640 is rater consistency, not an automatic metric. |
 | WebUIBench full framework reported mean correlation 0.83 on 100 sampled cases with 3 experts | P08, §4.2 Table 2 | PASS WITH LIMIT | Preserve author-reported “correlation”; estimator/aggregation unresolved. Do not infer Pearson/Spearman or a hidden observation count. |
 | DesignBench edit/repair judge accuracy 95.54% / 91.89%; kappa 0.8648 / 0.8428 | P15, §5.4 | PASS WITH LIMIT | Supports tested edit/repair judge agreement and human-label reliability only. Kappa variant/ordinal conversion remains source-limited. |
@@ -24,3 +24,15 @@ Scope: conclusion-driving numerical statements currently present in manuscript v
 - No pooled validity coefficient across correlations, kappas, accuracies, ranking statistics, and human-preference designs.
 - No conventional PRISMA identification counts reconstructed from incomplete native-database history.
 - No conversion of unavailable/not-reported validation into zero validation.
+
+## Retained source limits
+
+| Study | Audit treatment | Prohibited inference |
+|---|---|---|
+| P32 | Separate node-level and prototype-ranking validation; clustered sampling | Treating every node as an independent website or a generic validity percentage |
+| P52 | Preserve configuration-specific valid counts and unresolved missing-case policy | Assigning every score the full benchmark denominator |
+| P22 | Retain the conflicting human-sample descriptions | Inventing a reconciled participant/page count |
+| P33 | Headline result is on the checkpoint-selection validation split | Calling it independent held-out confirmation |
+| P57 | Interaction and conditional visual evaluation use different populations | Combining the denominators |
+
+These source-located audit additions do not constitute new independent human sign-offs. Shravani’s full-paper study and evaluation are recorded separately. Existing PASS labels retain their original bounded meaning and do not certify publication equivalence or the complete manuscript.

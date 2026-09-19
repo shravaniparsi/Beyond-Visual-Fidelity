@@ -1,7 +1,16 @@
-Family,RepresentativeStudies,SharedDependence,Interpretation
-Design2Code visual lineage,P01; P05; P06; P24; P67,Benchmark and/or fine-grained visual metric reuse,Adoption/reuse; independent evidence only where new criterion/construct is introduced.
-Design2Code-derived sketch lineage,P07 linked to P01,Source webpage ancestry,Sketch/refinement and human outcomes remain distinct evidence.
-WebCode2M lineage,P03; P09,Dataset/reference family,Inherited benchmark validity is not multiplied by reuse.
-Multi-benchmark optimization/reward,P19; P69,Reuse of Design2Code/Web2Code/ScreenBench-style resources,Primarily role/optimization evidence.
-Critic/checklist role family,P20; P21,Related evaluator/reward paradigm,Supports analysis of evaluator role and optimization.
-Cross-environment extension,P23,Related Design2Code/DCGen source-design ancestry,Adds orthogonal compatibility construct and detector validation.
+"Family","RepresentativeStudies","SharedDependence","Interpretation"
+"D01: Design2Code-related benchmark/evaluator lineage; edges differ","P01; P05; P06; P07; P09; P24; P67; P69; P25; P33; P49","dependency_register rows 1–2; Source Extraction P09-I03; late-study log","Not one shared sample; no complete historical implementation equivalence"
+"D02: WebCode2M dataset lineage","P03; P09; P25","dependency_register; Source Extraction P09","Do not multiply inherited validity by reuse"
+"D03: ScreenBench-labelled evaluation lineage","P67; P69","late-study log","P69 Screen-10K/ScreenBench naming unresolved"
+"D04: Multi-benchmark optimization/reward role family","P19; P69","dependency_register","Conceptual grouping; not proof of identical observations"
+"D05: Critic/checklist role family","P20; P21","dependency_register","Conceptual grouping, not sample dependence"
+"D06: Reported source-design ancestry with cross-environment extension","P23; P01; P05","dependency_register","Compatibility adds a different construct; do not collapse its detector study into visual validation"
+"S12: Six metric associations share one 600-pair human sample","P12","targeted primary checks REC-02/03","Human consistency remains separate from automatic metrics"
+"S08: Framework/ablations share expert-ranking study","P08","published Table 2","Not four independent validations"
+"S17: Visual and final-score weight tuning use the same 60-instance human sample","P17","ICLR 2026 Appendix C p17","Optimized correlations are not independent held-out validation; manual execution inspection is a distinct check"
+"S70: Selection, agreement, reliability and repeated splits linked to human protocol","P70","supplied PDF §3.1 and Appendix C","Nested selection independence not established"
+"S71: Judge comparisons and repeat runs share tested subset","P71","§4.4","Not separate independent human samples"
+"D07: Inherited interactive benchmark evaluation","P57; P17; P11","RILA benchmark section and Table 4","Selection, interaction-rate and conditional visual denominators differ; no new independent instrument validation"
+"S32: Functional nodes clustered within workflows and tasks","P32","Vision2Web §4.4","250 nodes are not 250 independent tasks; visual ranking is a separate criterion"
+"S52: Repeated judge configurations and matching checks on shared webpages","P52","WebIGBench Appendix B5–B7","Extraction annotation, matching agreement and cross-LLM stability are distinct evidence types"
+"S33: Checkpoint selection and headline score share validation split","P33","UIPress Table 1","Not independent held-out confirmation"

@@ -1,70 +1,43 @@
 # Beyond Visual Fidelity
 
-Research artifacts for:
+Research artifacts for **Beyond Visual Fidelity: A Systematic Evidence Synthesis of Construct Validity in AI UI-to-Code Evaluation**.
 
-**Beyond Visual Fidelity: A Systematic Evidence Synthesis of Construct Validity in AI UI-to-Code Evaluation**
+**Authors:** Vishwak Thatikonda and Shravani Parsi.
 
-**Authors:** Vishwak Thatikonda and Shravani Parsi  
-**Repository:** https://github.com/shravaniparsi/Beyond-Visual-Fidelity
+## Current evidence package
 
-## Purpose
+This v14-aligned package contains 35 cited study families, nine construct-family summaries, 13 representative validation/reliability records and 15 typed dependency groups. Thirty-three families are retained within task-specific scopes; FrontCoder (P20) and ReLook (P21) are boundary comparators. DesignRepair (P26) is repair-only and is excluded from screenshot-reconstruction interpretations.
 
-This repository contains the shareable research artifacts supporting a systematic evidence synthesis and construct-validity audit of evaluation practices in AI UI-to-code research.
+The manuscript and journal correspondence remain in the authors’ submission package pending final approval. This repository contains supporting research artifacts, not an accepted publication. Archival deposition and a verified dataset DOI remain pending. No release tag or DOI is implied by “v14”.
 
-The review focuses on what evaluation instruments directly measure, how they are operationalized, what validity and reliability evidence supports them, how denominator and failure policies affect reported results, how benchmark/evaluator reuse creates empirical dependencies, and which inferences are justified from reported scores.
+## Files and reading order
 
-## Repository contents
+1. [Data guide](data/README.md): register identities, evidence scope and historical-record interpretation.
+2. [Study register](data/study_register.csv): bibliography, task strata and permitted claims.
+3. [Supplementary material](supplement/supplementary_material.docx): synthesis methods, selected checks, dependency and sensitivity summaries.
+4. [Source checks](analysis/Reviewer_Source_Checks.md) and [version reconciliation](analysis/Source_Version_Reconciliation.md): source locators and version limits.
+5. [Sensitivity matrix](analysis/Supplementary_Sensitivity_Matrix_v2.md) and [detailed-record reconciliation](analysis/Detailed_Record_Reconciliation.md).
+6. [Figure sources and captions](figures/README.md): editable SVG and separate vector PDF artwork.
+7. [Original protocol](protocol/ui_to_code_review_protocol_v0_1.docx) and [procedure amendment](protocol/protocol_amendment.md).
+8. [Search accounting](search/search_accounting_note.md), [search strategy](search/search_strategy.md) and [update log](search/update_search_log.md).
 
-```text
-.
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── protocol/
-│   ├── ui_to_code_review_protocol_v0_1.docx
-│   └── protocol_amendment.md
-├── data/
-│   ├── study_register.csv
-│   ├── instrument_register.csv
-│   ├── validation_evidence.csv
-│   ├── dependency_register.csv
-│   └── human_verification_register.md
-├── search/
-│   ├── search_strategy.md
-│   ├── update_search_log.md
-│   └── search_accounting_note.md
-├── analysis/
-│   ├── numerical_claim_audit.md
-│   └── reporting_framework.md
-├── figures/
-│   ├── figure1_measurement_design.svg
-│   ├── figure2_task_construct_map.svg
-│   └── figure3_dependency_map.svg
-└── supplement/
-    └── supplementary_material.docx
-```
+The [release notes](RELEASE_NOTES.md) describe this update. `MANIFEST.json` records SHA-256 hashes and sizes for the released files, excluding itself.
 
-## Reproducibility and scope
+## Review process and evidence boundaries
 
-The repository documents the review protocol, evidence coding, validation and dependency audit, targeted human-verification decisions, numerical claim checks, and evidence-derived reporting framework.
+Shravani Parsi read and studied all included papers and evaluated the evidence and interpretations. H01–H09 are selected documented checks, not the extent of author review. The review did not use independent dual coding.
 
-The project does **not** claim that every released artifact reproduces the historical experiments reported by the reviewed primary studies. Artifact availability, procedure inspectability, historical-run equivalence, and independent reproduction are treated as distinct states in the review.
+ChatGPT (OpenAI) supported literature organization and retrieval, source localization, preliminary extraction, consistency and arithmetic checks, synthesis support, language refinement and programmatic figure preparation. The authors retain responsibility for the content and conclusions.
 
-The review also does not reconstruct unsupported conventional PRISMA identification counts where complete native-database export and global deduplication records were not retained.
+Artifact availability, procedure inspectability, historical-run equivalence and independent reproduction remain distinct. Benchmark reuse does not establish independent construct validation. The project does not reconstruct conventional PRISMA identification counts from incomplete native-database export and deduplication records.
 
-## Human oversight and AI assistance
+## Citation and copyright
 
-AI-assisted tools supported literature organization, source localization, preliminary evidence extraction, consistency and arithmetic checks, and language refinement. The authors retained responsibility for the review design, interpretation, verification of conclusion-critical evidence, and final manuscript. The human-verification register records the scope and limitations of targeted non-blinded checks.
+[CITATION.cff](CITATION.cff) identifies the authors and dataset. The manuscript-linked archival DOI will be added after the exact release is deposited and verified. Until then, identify the Git commit used when referring to this evolving package.
 
-## Copyright
-
-This repository does **not** redistribute copyrighted copies of reviewed publications. Users should obtain primary papers from their publishers, authors, institutional repositories, or lawful preprint sources.
-
-## Citation
-
-A `CITATION.cff` file is provided for repository citation. If this repository is archived with Zenodo, cite the archived DOI for the exact release used by the manuscript.
+Authored research artifacts are licensed under [CC BY 4.0](LICENSE). Copyrighted copies of reviewed papers are not redistributed; the license does not cover third-party publications.
 
 ## Authors
 
-- **Vishwak Thatikonda** — Independent Researcher, Dublin, CA, USA. ORCID: 0009-0009-5828-5903
-- **Shravani Parsi** — Independent Researcher, Dublin, CA, USA. ORCID: 0009-0004-0084-4657
+- Vishwak Thatikonda — Independent Researcher, Dublin, CA, USA. ORCID: [0009-0009-5828-5903](https://orcid.org/0009-0009-5828-5903).
+- Shravani Parsi — Independent Researcher, Dublin, CA, USA. ORCID: [0009-0004-0084-4657](https://orcid.org/0009-0004-0084-4657).

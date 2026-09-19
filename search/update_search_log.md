@@ -4,7 +4,7 @@ A bounded update search was performed before evidence freeze using the same popu
 
 Late studies retained in the update process included:
 - P67 ScreenCoder — core visual-to-code study;
-- P69 UniCoder — boundary/reward-design evidence;
+- P69 UniCoder — webpage subset retained within scope; other domains excluded; benchmark and reward-design dependence retained;
 - P70 Animation2Code — core dynamic/temporal study;
 - P71 WebVR — core video-conditioned webpage-recreation study.
 

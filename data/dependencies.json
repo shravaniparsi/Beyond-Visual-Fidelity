@@ -1,0 +1,156 @@
+[
+  {
+    "id": "D01",
+    "members": [
+      "P01",
+      "P05",
+      "P06",
+      "P07",
+      "P09",
+      "P24",
+      "P67",
+      "P69",
+      "P25",
+      "P33",
+      "P49"
+    ],
+    "relationship": "Design2Code-related benchmark/evaluator lineage; edges differ",
+    "basis": "dependency_register rows 1–2; Source Extraction P09-I03; late-study log",
+    "limit": "Not one shared sample; no complete historical implementation equivalence"
+  },
+  {
+    "id": "D02",
+    "members": [
+      "P03",
+      "P09",
+      "P25"
+    ],
+    "relationship": "WebCode2M dataset lineage",
+    "basis": "dependency_register; Source Extraction P09",
+    "limit": "Do not multiply inherited validity by reuse"
+  },
+  {
+    "id": "D03",
+    "members": [
+      "P67",
+      "P69"
+    ],
+    "relationship": "ScreenBench-labelled evaluation lineage",
+    "basis": "late-study log",
+    "limit": "P69 Screen-10K/ScreenBench naming unresolved"
+  },
+  {
+    "id": "D04",
+    "members": [
+      "P19",
+      "P69"
+    ],
+    "relationship": "Multi-benchmark optimization/reward role family",
+    "basis": "dependency_register",
+    "limit": "Conceptual grouping; not proof of identical observations"
+  },
+  {
+    "id": "D05",
+    "members": [
+      "P20",
+      "P21"
+    ],
+    "relationship": "Critic/checklist role family",
+    "basis": "dependency_register",
+    "limit": "Conceptual grouping, not sample dependence"
+  },
+  {
+    "id": "D06",
+    "members": [
+      "P23",
+      "P01",
+      "P05"
+    ],
+    "relationship": "Reported source-design ancestry with cross-environment extension",
+    "basis": "dependency_register",
+    "limit": "Compatibility adds a different construct; do not collapse its detector study into visual validation"
+  },
+  {
+    "id": "S12",
+    "members": [
+      "P12"
+    ],
+    "relationship": "Six metric associations share one 600-pair human sample",
+    "basis": "targeted primary checks REC-02/03",
+    "limit": "Human consistency remains separate from automatic metrics"
+  },
+  {
+    "id": "S08",
+    "members": [
+      "P08"
+    ],
+    "relationship": "Framework/ablations share expert-ranking study",
+    "basis": "published Table 2",
+    "limit": "Not four independent validations"
+  },
+  {
+    "id": "S17",
+    "members": [
+      "P17"
+    ],
+    "relationship": "Visual and final-score weight tuning use the same 60-instance human sample",
+    "basis": "ICLR 2026 Appendix C p17",
+    "limit": "Optimized correlations are not independent held-out validation; manual execution inspection is a distinct check"
+  },
+  {
+    "id": "S70",
+    "members": [
+      "P70"
+    ],
+    "relationship": "Selection, agreement, reliability and repeated splits linked to human protocol",
+    "basis": "supplied PDF §3.1 and Appendix C",
+    "limit": "Nested selection independence not established"
+  },
+  {
+    "id": "S71",
+    "members": [
+      "P71"
+    ],
+    "relationship": "Judge comparisons and repeat runs share tested subset",
+    "basis": "§4.4",
+    "limit": "Not separate independent human samples"
+  },
+  {
+    "id": "D07",
+    "members": [
+      "P57",
+      "P17",
+      "P11"
+    ],
+    "relationship": "Inherited interactive benchmark evaluation",
+    "basis": "RILA benchmark section and Table 4",
+    "limit": "Selection, interaction-rate and conditional visual denominators differ; no new independent instrument validation"
+  },
+  {
+    "id": "S32",
+    "members": [
+      "P32"
+    ],
+    "relationship": "Functional nodes clustered within workflows and tasks",
+    "basis": "Vision2Web §4.4",
+    "limit": "250 nodes are not 250 independent tasks; visual ranking is a separate criterion"
+  },
+  {
+    "id": "S52",
+    "members": [
+      "P52"
+    ],
+    "relationship": "Repeated judge configurations and matching checks on shared webpages",
+    "basis": "WebIGBench Appendix B5–B7",
+    "limit": "Extraction annotation, matching agreement and cross-LLM stability are distinct evidence types"
+  },
+  {
+    "id": "S33",
+    "members": [
+      "P33"
+    ],
+    "relationship": "Checkpoint selection and headline score share validation split",
+    "basis": "UIPress Table 1",
+    "limit": "Not independent held-out confirmation"
+  }
+]

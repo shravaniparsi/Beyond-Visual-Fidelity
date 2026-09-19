@@ -1,8 +1,6 @@
-# Targeted human-verification register
+# Author review and selected verification records
 
-Reviewer: Shravani Parsi  
-Method: Non-blinded human verification of AI-assisted extraction through chat.  
-Coverage: Nine scoped checks (H01–H09). No whole-paper independent dual-human extraction is certified.
+Shravani Parsi read and studied all included papers and evaluated the evidence and interpretations. H01–H09 record nine selected, non-blinded verification decisions; they are not the number of papers read or the extent of author review. The review did not use independent dual coding. Original scoped decisions and their limitations are retained below. P50 and P66 remain discovery-stage checks outside the 35 cited study families.
 
 | Check | Study | Human-approved scope | Retained limitation |
 |---|---|---|---|

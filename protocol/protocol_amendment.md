@@ -1,9 +1,9 @@
-# Protocol amendment — reviewer procedure
+# Protocol amendment — review procedure
 
-**Date:** 2026-09-17
+Original amendment: 17 September 2026. Clarification of author review: 19 September 2026.
 
-The originally drafted protocol proposed independent dual screening and partial independent double-coding. During execution, the reviewer procedure was amended to reflect the workflow actually performed: single-human oversight with targeted, non-blinded human verification of AI-assisted extraction.
+The original protocol proposed independent dual screening and partial independent double-coding. The procedure used in this review departed from that plan. Shravani Parsi read and studied the included papers and evaluated the evidence and interpretations. This full-paper review informed source-located extraction, numerical checks and targeted examination of ambiguous or conclusion-critical interpretations.
 
-The human reviewer had access to AI-assisted summaries and proposed interpretations. These checks therefore do not constitute blinded independent dual coding. The manuscript reports this deviation transparently and treats lack of independent dual-human coding as a methodological limitation.
+The nine retained H01–H09 decisions document selected checks, not the extent of author review. The review was not independent dual coding, and no inter-reviewer agreement statistic is claimed. This methodological limitation remains explicit.
 
-The amendment was made after some results were visible and before the final evidence-synthesis freeze. Earlier verification decisions were retained rather than relabeled as independent coding.
+The amendment was made after some results were visible. Earlier decisions retain their original scope and limitations; source reading does not establish final submission approval. The original protocol remains available as a historical planning document and should be read with this amendment.

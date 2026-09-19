@@ -1,0 +1,32 @@
+{
+  "Instrument Queue": {
+    "original_rows": 369,
+    "in_cited_35": 180,
+    "outside_cited_35": 189
+  },
+  "Evidence Queue": {
+    "original_rows": 86,
+    "in_cited_35": 43,
+    "outside_cited_35": 43
+  },
+  "Claim Queue": {
+    "original_rows": 13,
+    "in_cited_35": 8,
+    "outside_cited_35": 5
+  },
+  "Source Extraction": {
+    "original_rows": 53,
+    "in_cited_35": 48,
+    "outside_cited_35": 5
+  },
+  "instrument_exact_extraction_links": 35,
+  "claim_decisions": {
+    "archived_scope_only": 1,
+    "hold_specific_claim": 2,
+    "retain_scoped_interpretation": 3,
+    "retain_new_version_scope": 1,
+    "outside_cited_universe": 5,
+    "retain_human_scoped_interpretation": 1
+  },
+  "source_snapshot_sha256": "8533927db94620d5694955479c9b3d2c3e7764d6b658b156755979b997b2a192"
+}
