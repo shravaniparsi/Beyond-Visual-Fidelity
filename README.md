@@ -8,7 +8,7 @@ Research artifacts for **Beyond Visual Fidelity: A Systematic Evidence Synthesis
 
 This v14-aligned package contains 35 cited study families, nine construct-family summaries, 13 representative validation/reliability records and 15 typed dependency groups. Thirty-three families are retained within task-specific scopes; FrontCoder (P20) and ReLook (P21) are boundary comparators. DesignRepair (P26) is repair-only and is excluded from screenshot-reconstruction interpretations.
 
-The manuscript and journal correspondence remain in the authors’ submission package pending final approval. This repository contains supporting research artifacts, not an accepted publication. Archival deposition and a verified dataset DOI remain pending. No release tag or DOI is implied by “v14”.
+The manuscript and journal correspondence remain in the authors’ submission package pending final approval. This repository contains supporting research artifacts, not an accepted publication. The v1.0.0 evidence release is archived at [doi:10.5281/zenodo.22841707](https://doi.org/10.5281/zenodo.22841707). It corresponds to commit `d28c017382b14f72dcd318c8421449e92e944880`; “v14” identifies its manuscript evidence state.
 
 ## Files and reading order
 
@@ -33,7 +33,7 @@ Artifact availability, procedure inspectability, historical-run equivalence and 
 
 ## Citation and copyright
 
-[CITATION.cff](CITATION.cff) identifies the authors and dataset. The manuscript-linked archival DOI will be added after the exact release is deposited and verified. Until then, identify the Git commit used when referring to this evolving package.
+[CITATION.cff](CITATION.cff) identifies the authors and dataset. Cite the archived v1.0.0 release using [doi:10.5281/zenodo.22841707](https://doi.org/10.5281/zenodo.22841707). This is the version-specific DOI. Subsequent repository metadata edits do not change the archived files.
 
 Authored research artifacts are licensed under [CC BY 4.0](LICENSE). Copyrighted copies of reviewed papers are not redistributed; the license does not cover third-party publications.
 

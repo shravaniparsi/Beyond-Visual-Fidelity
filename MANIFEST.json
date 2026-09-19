@@ -1,8 +1,8 @@
 [
   {
     "path": "CITATION.cff",
-    "sha256": "929a69bc80897d70a30ccb63f6b3e7109318b19f92e36b22c4a1af279372ecf6",
-    "bytes": 748
+    "sha256": "edc3cf2c65de0b251615f10435e9f7f17cf1cc69ac166e7907366b245ef515b7",
+    "bytes": 873
   },
   {
     "path": "LICENSE",
@@ -11,8 +11,8 @@
   },
   {
     "path": "README.md",
-    "sha256": "24adecf1b71ee86c7d118fe146de6ccae86681da5bdecd63f4f2aaeee9de52d7",
-    "bytes": 3794
+    "sha256": "b760cd83a1bdc0496cb551ddf398c91f2b04077c83ead97b7bf8a5b541d53d27",
+    "bytes": 3954
   },
   {
     "path": "RELEASE_NOTES.md",

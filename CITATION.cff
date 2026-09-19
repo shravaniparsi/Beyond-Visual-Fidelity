@@ -18,3 +18,8 @@ keywords:
   - benchmark evaluation
   - multimodal code generation
   - reproducibility
+
+version: "v1.0.0"
+date-released: "2026-09-19"
+doi: "10.5281/zenodo.22841707"
+url: "https://doi.org/10.5281/zenodo.22841707"
